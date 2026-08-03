@@ -1,0 +1,478 @@
+{
+  "_meta": {
+    "translationQuality": "native",
+    "author": "ParaguAI / Ai-Whisperers",
+    "lastReviewed": "2026-05-28",
+    "version": "1.0"
+  },
+  "site": {
+    "name": "HidroBaby Spa",
+    "shortName": "HidroBaby",
+    "businessName": "HidroBaby Spa",
+    "tagline": "Baby Spa en Fernando de la Mora — Spa Post-Vacunas #1",
+    "description": "Spa post vacunas e hidromasaje para bebés de 45 días a 6 años. +1,300 reviews. Fisioterapia infantil, fiestas infantiles y coworking baby.",
+    "phone": "+595 993 444 222",
+    "whatsapp": "595993444222",
+    "email": "",
+    "address": "Fernando de la Mora, Paraguay",
+    "city": "Fernando de la Mora",
+    "country": "Paraguay",
+    "hours": "Lunes a Sábado 9:00–18:00 hs"
+  },
+  "navigation": {
+    "businessName": "HidroBaby Spa",
+    "items": [
+      {
+        "label": "Servicios",
+        "href": "#servicios"
+      },
+      {
+        "label": "Precios",
+        "href": "#precios"
+      },
+      {
+        "label": "Paquetes",
+        "href": "#paquetes"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Galería",
+        "href": "#galeria"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
+    ]
+  },
+  "hero": {
+    "headline": "Spa Post-Vacunas para Bebés",
+    "subheadline": "+1,300 familias confían en nosotros",
+    "description": "Hidromasaje especializado después de vacunas. Reduce irritación, mejora sueño, alivia cólicos. Sesiones de 20-30 minutos con agua a 36°C y desinfección con ozono.",
+    "ctaPrimaryText": "Reservar Post-Vacuna",
+    "ctaPrimaryHref": "#reservar",
+    "ctaSecondaryText": "Ver Paquetes",
+    "ctaSecondaryHref": "#paquetes"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "items": [
+      {
+        "title": "Baño de inmersión para bebés",
+        "description": "Sesiones seguras de hidroterapia para bebés desde los 2 meses. Agua templada, certificada y controlada. Ambiente esterilizado con temperatura ideal.",
+        "price": "Gs. 45.000",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Masajes pediátricos",
+        "description": "Técnicas de masaje infantil que favorecen el sueño, la digestión y el vínculo afectivo. Realizados por fisioterapeutas especializados.",
+        "price": "Gs. 50.000",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Clases de natación temprana",
+        "description": "Introducción al agua en un entorno seguro y divertido. Desarrolla confianza, coordinación y reflejos acuáticos desde el primer año.",
+        "price": "Gs. 60.000",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Spa sensorial infantil",
+        "description": "Experiencia multisensorial con luces, sonidos y texturas adaptadas al desarrollo neurológico del bebé. Ideal para estimulación temprana.",
+        "price": "Gs. 55.000",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Fisioterapia acuática",
+        "description": "Rehabilitación en agua para bebés con hipotonía, tortícolis o prematurez. Programas diseñados por kinesiólogos pediátricos.",
+        "price": "Gs. 70.000",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  "packages": {
+    "title": "Paquetes Especiales",
+    "description": "Combina servicios y ahorra en experiencias completas para tu bebé.",
+    "items": [
+      {
+        "name": "Pack Bienestar",
+        "description": "Sesión de inmersión + masaje pediátrico + spa sensorial",
+        "services": [
+          "Baño de inmersión (30 min)",
+          "Masaje pediátrico (20 min)",
+          "Spa sensorial (15 min)"
+        ],
+        "originalPrice": 150000,
+        "price": 120000,
+        "savings": 30000,
+        "badge": "Popular"
+      },
+      {
+        "name": "Pack Explorador",
+        "description": "Clase de natación + fisioterapia acuática + seguimiento",
+        "services": [
+          "Natación temprana (45 min)",
+          "Fisioterapia acuática (30 min)",
+          "Reporte de progreso"
+        ],
+        "originalPrice": 200000,
+        "price": 165000,
+        "savings": 35000
+      },
+      {
+        "name": "Pack Premium",
+        "description": "Experiencia completa con todos los servicios + atención exclusiva",
+        "services": [
+          "Todos los servicios incluidos",
+          "Sesión individual (90 min)",
+          "Atención prioritaria",
+          "Reporte detallado"
+        ],
+        "originalPrice": 350000,
+        "price": 280000,
+        "savings": 70000,
+        "badge": "Mejor valor"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galería de Experiencias",
+    "items": [
+      {
+        "src": "/images/gallery/post-vacuna-1.jpg",
+        "caption": "Sesión post-vacuna - bebé de 3 meses",
+        "alt": "Bebé disfrutando spa post-vacuna"
+      },
+      {
+        "src": "/images/gallery/hydro-massage-1.jpg",
+        "caption": "Hidromasaje terapéutico - bebé de 6 meses",
+        "alt": "Bebé en sesión de hidromasaje"
+      },
+      {
+        "src": "/images/gallery/fisioterapia-1.jpg",
+        "caption": "Fisioterapia infantil - especializado",
+        "alt": "Sesión de fisioterapia para bebé"
+      },
+      {
+        "src": "/images/gallery/fiesta-1.jpg",
+        "caption": "Fiesta infantil - celebración",
+        "alt": "Niños disfrutando fiesta en spa"
+      },
+      {
+        "src": "/images/gallery/relax-1.jpg",
+        "caption": "Paquete Relajante - sesión completa",
+        "alt": "Sesión completa de relajación"
+      },
+      {
+        "src": "/images/gallery/coworking-1.jpg",
+        "caption": "Coworking Baby - mamá y bebé",
+        "alt": "Mamá trabajando mientras bebé disfruta spa"
+      },
+      {
+        "src": "/images/gallery/post-vacuna-2.jpg",
+        "caption": "Bebé relajado después de vacunas",
+        "alt": "Bebé durmiendo en spa post-vacuna"
+      },
+      {
+        "src": "/images/gallery/hydro-estim-1.jpg",
+        "caption": "Hidroestimulación - desarrollo motor",
+        "alt": "Sesión de hidroestimulación para bebé"
+      }
+    ]
+  },
+  "promos": {
+    "items": [
+      {
+        "title": "🎉 Primera Sesión GRATIS",
+        "description": "Prueba cualquiera de nuestros servicios sin costo",
+        "ctaText": "Reservar ahora",
+        "ctaLink": "https://wa.me/595993444222?text=Hola!%20Quiero%20mi%20primera%20sesión%20gratis",
+        "bgColor": "#4ECDC4"
+      },
+      {
+        "title": "💎 Pack Familiar -20%",
+        "description": "2 o más hermanos descuento en paquete completo",
+        "ctaText": "Ver detalles",
+        "ctaLink": "#paquetes",
+        "bgColor": "#FFE66D"
+      },
+      {
+        "title": "🚑 Fisioterapia Prioritaria",
+        "description": "Atención inmediata para bebés con hipotonía o tortícolis",
+        "ctaText": "Agendar urgente",
+        "ctaLink": "https://wa.me/595993444222?text=Hola!%20Necesito%20fisioterapia%20de%20urgencia",
+        "bgColor": "#FF6B6B"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo que dicen las familias",
+    "items": [
+      {
+        "text": "Maxen se relajó y disfrutó de su primera experiencia a sus 2 meses (spa pos vacuna). Definitivamente volvemos para sus 4 meses 😻",
+        "author": "Cliente de Google Maps",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Spa Post-Vacunas"
+      },
+      {
+        "text": "Excelente atención para el spa post vacuna de mi bebé de 4 meses! 🌟",
+        "author": "Cliente de Google Maps",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Spa Post-Vacunas"
+      },
+      {
+        "text": "Increíble experiencia en el spa post vacuna de mi hija de 3 meses! 💙",
+        "author": "Cliente de Google Maps",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Spa Post-Vacunas"
+      },
+      {
+        "text": "La hidroterapia ayudó mucho con el desarrollo de mi hijo. Muy recomendado para bebés con hipotonía.",
+        "author": "Madre de bebé con hipotonía",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Hidromasaje Terapéutico"
+      },
+      {
+        "text": "Atención cálida y profesional. El lugar está impecable y el agua es perfecta para los bebés.",
+        "author": "Padre de primerizo",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Hidromasaje para Bebés"
+      },
+      {
+        "text": "Mi bebé de 2 meses se durmió en el primer baño. Fátima tiene una mano mágica con los niños.",
+        "author": "Nueva mamá",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Hidromasaje para Bebés"
+      },
+      {
+        "text": "Después del spa post vacuna, mi bebé no tuvo ninguna irritación. El proceso es suave y seguro.",
+        "author": "Mamá preocupada",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Spa Post-Vacunas"
+      },
+      {
+        "text": "Las fisioterapeutas son muy profesionales. Mi hijo con tortícolis ha mejorado muchísimo.",
+        "author": "Padre de bebé con tortícolis",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Fisioterapia Infantil"
+      },
+      {
+        "text": "Organizaron la fiesta de mi hijo de 1 año y fue espectacular. ¡Los niños amaron el spa!",
+        "author": "Mamá de niño de 1 año",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Fiestas Infantiles"
+      },
+      {
+        "text": "Coworking Baby es genial. Puedo trabajar mientras mi bebé disfruta del spa. Totalmente recomendado.",
+        "author": "Madre trabajadora",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Coworking Baby"
+      },
+      {
+        "text": "Pensaba que era exagerado el spa para bebés, pero vi la diferencia en el desarrollo de mi sobrino. Increíble.",
+        "author": "Tía preocupada",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Hidroestimulación"
+      },
+      {
+        "text": "Limpieza impecable. El agua se cambia después de cada bebé. Muy tranquilizador para nosotros los padres.",
+        "author": "Padre de prematuro",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Hidromasaje para Bebés"
+      },
+      {
+        "text": "El paquete relajante de 3 sesiones es excelente. Mi bebé duerme mejor después de cada sesión.",
+        "author": "Mamá con bebé inquieto",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Paquetes Relajante"
+      },
+      {
+        "text": "Atención personalizada. Te explican todo el proceso y responden todas las dudas.",
+        "author": "Primeriza con mil dudas",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "General"
+      },
+      {
+        "text": "Mis gemelos aman el spa. Viendo sus reacciones, definitivamente vale cada guaraní.",
+        "author": "Mamá de gemelos",
+        "rating": 5,
+        "location": "Google Maps",
+        "service": "Hidromasaje para Bebés"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Reserva tu cita en HidroBaby Spa.",
+    "cta": {
+      "text": "+595 993 444 222",
+      "label": "WhatsApp"
+    },
+    "whatsappMessage": "¡Hola! Vi la página de HidroBaby Spa y me gustaría reservar una cita. ¿Podés confirmarme disponibilidad?"
+  },
+  "footer": {
+    "businessName": "HidroBaby Spa",
+    "tagline": "© 2026 HidroBaby Spa. Todos los derechos reservados.",
+    "credits": "Hecho con ❤️ por ParaguAI"
+  },
+  "faq": {
+    "items": [
+      {
+        "question": "¿Desde qué edad puede asistir mi bebé al spa?",
+        "answer": "Aceptamos bebés desde los 45 días de vida. Es importante que el cordón umbilical haya caído completamente y que el bebé tenga un peso mínimo de 3.5 kg para asegurar su bienestar durante la sesión."
+      },
+      {
+        "question": "¿Es seguro el spa post-vacunas?",
+        "answer": "Absolutamente. El spa post-vacunas es nuestro servicio más solicitado. El agua templada (36°C) y el movimiento suave ayudan a reducir la irritación en el sitio de la inyección, mejoran el sueño y alivian posibles cólicos. Más de 1,300 bebés han pasado por esta experiencia sin contraindicaciones."
+      },
+      {
+        "question": "¿Cómo se garantiza la higiene del agua?",
+        "answer": "Contamos con un sistema de filtración y desinfección con ozono que garantiza agua esterilizada. El agua se cambia después de cada bebé y la temperatura se mantiene constante a 36°C. Todos los equipos se desinfectan con soluciones hipoalergénicas entre sesiones."
+      },
+      {
+        "question": "¿Cuánto dura cada sesión?",
+        "answer": "Las sesiones de hidromasaje duran entre 20 y 30 minutos, dependiendo de la edad del bebé y el servicio seleccionado. Para bebés de 45 días a 3 meses, recomendamos 20 minutos. Para bebés mayores de 3 meses, las sesiones pueden extenderse hasta 30 minutos."
+      },
+      {
+        "question": "¿Qué beneficios tiene el hidromasaje para bebés?",
+        "answer": "Mejora el desarrollo motor, fortalece los músculos, estimula el sistema circulatorio, ayuda a conciliar el sueño, reduce cólicos y gases, y fortalece el vínculo afectivo entre padres e hijos. También es excelente para bebés prematuros y aquellos con hipotonía o tortícolis."
+      },
+      {
+        "question": "¿Los padres pueden acompañar al bebé?",
+        "answer": "Sí, los padres pueden acompañar al bebé durante toda la sesión. Contamos con un área especial para que los padres observen y participen si lo desean. Para quienes prefieren trabajar mientras el bebé disfruta del spa, ofrecemos nuestro servicio Coworking Baby."
+      },
+      {
+        "question": "¿Qué incluye el paquete post-vacunas?",
+        "answer": "El paquete incluye: sesión de hidromasaje de 20-30 minutos, evaluación previa de motricidad, asesoramiento sobre cuidados post-vacunas, seguimiento del desarrollo del bebé, y certificado de asistencia. También ofrecemos paquetes de 3 y 5 sesiones con descuento."
+      },
+      {
+        "question": "¿Realizan fiestas infantiles?",
+        "answer": "Sí, organizamos fiestas infantiles personalizadas. Incluyen: uso exclusivo del spa para los niños invitados, torta y decoración temática, sesión de fotos profesional, y souvenirs para cada invitado. Aceptamos grupos de hasta 12 niños con duración de 2-3 horas."
+      },
+      {
+        "question": "¿Cómo reservo una cita?",
+        "answer": "Puedes reservar por WhatsApp al +595 993 444 222 o visitarnos directamente en Fernando de la Mora. Recomendamos reservar con 48 horas de anticipación, especialmente para los horarios de fin de semana. Para emergencias o consultas, también puedes escribirnos por WhatsApp."
+      },
+      {
+        "question": "¿Aceptan bebés con necesidades especiales?",
+        "answer": "Sí, tenemos especialización en fisioterapia infantil y atendemos bebés con necesidades especiales: hipotonía, tortícolis, prematuros, y otras condiciones. Contamos con fisioterapeutas certificados y equipos adaptados. Consulta con nosotros para evaluar la mejor opción para tu bebé."
+      },
+      {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos efectivo, transferencias bancarias, tarjetas de crédito/débito, y我们也欢迎支付宝/微信支付 (para nuestros clientes chinos). Ofrecemos planes de pago para paquetes de sesiones múltiples."
+      },
+      {
+        "question": "¿Hay servicios de seguimiento?",
+        "answer": "Sí, ofrecemos seguimiento del desarrollo del bebé. Cada 6 sesiones, realizamos una evaluación de progreso y entregamos un reporte detallado a los padres. Esto es especialmente importante para bebés en terapia física o desarrollo motor."
+      },
+      {
+        "question": "¿Los terapeutas tienen certificación?",
+        "answer": "Todos nuestros terapeutas tienen certificación en fisioterapia pediátrica y formación especializada en hidroterapia infantil. El fundador, Fátima Flecha, tiene más de 10 años de experiencia en estimulación temprana. Nos actualizamos constantemente con las mejores prácticas internacionales."
+      },
+      {
+        "question": "¿Qué debo llevar para la sesión?",
+        "answer": "Solo necesitas: toalla, pañales, ropa de cambio, y toallitas húmedas. Nosotros proporcionamos: agua esterilizada a la temperatura ideal, termómetro para verificar la temperatura corporal del bebé, y productos hipoalergénicos de cuidado de la piel."
+      },
+      {
+        "question": "¿Hay estacionamiento?",
+        "answer": "Sí, tenemos estacionamiento gratuito disponible para nuestros clientes. Recomendamos llegar 10 minutos antes de la cita para completar el registro y permitir que el bebé se acostumbre al ambiente."
+      },
+      {
+        "question": "¿Realizan visitas a domicilio?",
+        "answer": "Actualmente solo atendemos en nuestras instalaciones en Fernando de la Mora. Esto nos permite mantener los más altos estándares de higiene y contar con todo el equipo necesario. Estamos evaluando la posibilidad de visitas a domicilio para 2027."
+      },
+      {
+        "question": "¿Hay descuentos para hermanos?",
+        "answer": "Sí, ofrecemos descuentos del 15% para hermanos que asisten en la misma sesión. También tenemos descuentos especiales para paquetes de 3 o más sesiones, y referidos de clientes existentes reciben un bono de descuento adicional."
+      },
+      {
+        "question": "¿Qué pasa si mi bebé llora durante la sesión?",
+        "answer": "Es completamente normal que un bebé llore al principio. Nuestros terapeutas están entrenados para calmar a los bebés y hacer que la experiencia sea agradable. La mayoría de los bebés se relajan después de los primeros 2-3 minutos en el agua. Si el bebé persiste en llorar, podemos adaptar la sesión o hacer pausas."
+      },
+      {
+        "question": "¿HidroBaby Spa tiene otras sucursales?",
+        "answer": "Actualmente tenemos tres sedes: Villa Morra (principal), Fernando de la Mora (foco en post-vacunas y terapia), y Luque (fiestas infantiles). Cada sede tiene servicios especializados. Próximamente abriremos en San Lorenzo."
+      },
+      {
+        "question": "¿Puedo ver instalaciones antes de reservar?",
+        "answer": "Sí, ofrecemos visitas guiadas gratuitas antes de reservar. Puedes venir sin cita en horarios de oficina o programar una visita específica. Es importante que veas las instalaciones y conozcas al equipo antes de decidir."
+      }
+    ],
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Lo que nos preguntan más de 1,300 familias"
+  },
+  "pricing": {
+    "title": "Precios Transparentes",
+    "subtitle": "Sin costos ocultos. Solo cobramos por lo que recibes.",
+    "plans": [
+      {
+        "name": "Sesión Individual",
+        "price": "Gs. 60,000",
+        "duration": "20-30 min",
+        "features": [
+          "Hidromasaje individual",
+          "Evaluación de motricidad",
+          "Agua esterilizada con ozono",
+          "Toalla y productos incluidos"
+        ],
+        "popular": false
+      },
+      {
+        "name": "Paquete Post-Vacunas (3 sesiones)",
+        "price": "Gs. 150,000",
+        "duration": "3 sesiones",
+        "features": [
+          "3 sesiones de hidromasaje",
+          "Evaluación de progreso",
+          "Seguimiento del desarrollo",
+          "Descuento de 25%",
+          "Prioridad en horarios"
+        ],
+        "popular": true
+      },
+      {
+        "name": "Paquete Deluxe (5 sesiones)",
+        "price": "Gs. 220,000",
+        "duration": "5 sesiones",
+        "features": [
+          "5 sesiones de hidromasaje",
+          "2 sesiones de fisioterapia",
+          "Evaluación completa",
+          "Reporte de progreso",
+          "Descuento de 35%",
+          "WhatsApp prioritario"
+        ],
+        "popular": false
+      },
+      {
+        "name": "Fiesta Infantil (hasta 12 niños)",
+        "price": "Gs. 400,000",
+        "duration": "2-3 horas",
+        "features": [
+          "Uso exclusivo del spa",
+          "Torta y decoración temática",
+          "Sesión de fotos profesional",
+          "Souvenirs para cada invitado",
+          "Coordinador de evento"
+        ],
+        "popular": false
+      }
+    ]
+  }
+}

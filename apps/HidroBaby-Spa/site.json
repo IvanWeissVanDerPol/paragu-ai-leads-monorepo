@@ -1,0 +1,35 @@
+{
+  "vertical": "tattoo-piercing",
+  "country": "Paraguay",
+  "domain": "estudiomedieval.com.py",
+  "defaultLocale": "es",
+  "locales": ["es"],
+  "name": "Estudio Medieval",
+  "businessName": "Estudio Medieval S.R.L",
+  "shortName": "Estudio Medieval",
+  "tagline": "Tatuajes & Body Piercing en San Lorenzo — 8 años de experiencia",
+  "phone": "+595 961 482 854",
+  "whatsapp": "595961482854",
+  "email": "",
+  "address": "Cnel. Feliciano Duarte 315 esq. Mariscal Estigarribia, San Lorenzo",
+  "city": "San Lorenzo",
+  "country": "Paraguay",
+  "hours": "Lunes a Sábado 10:00–20:00 hs",
+  "founded": "2018",
+  "instagram": "estudiomedievalsrl",
+  "facebook": "estudiomedivalS.R.L",
+  "url": "https://estudiomedieval.com.py",
+  "description": "Estudio Medieval S.R.L — Tatuajes, body piercing e insumos en San Lorenzo. 8+ años en el mercado, 392 reviews en Google Maps, 58K seguidores en Instagram.",
+  "googleMaps": {
+    "rating": 4.6,
+    "reviews": 392,
+    "plusCode": "MFPC+67H San Lorenzo"
+  },
+  "navigation": [
+    { "labelKey": "navigation.home", "path": "" },
+    { "labelKey": "navigation.services", "path": "servicios" },
+    { "labelKey": "navigation.gallery", "path": "galeria" },
+    { "labelKey": "navigation.about", "path": "nosotros" },
+    { "labelKey": "navigation.contact", "path": "contacto" }
+  ]
+}
