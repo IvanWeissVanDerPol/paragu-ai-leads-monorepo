@@ -1,0 +1,22 @@
+{
+  "name": "@paragu-ai-leads/config",
+  "version": "1.0.0",
+  "description": "Shared TypeScript, Tailwind, PostCSS, ESLint configs for all 19 ParaguAI lead sites.",
+  "main": "./index.js",
+  "exports": {
+    "./tsconfig": "./tsconfig/base.json",
+    "./tsconfig/nextjs": "./tsconfig/nextjs.json",
+    "./tailwind": "./tailwind/default.js",
+    "./postcss": "./postcss.config.js",
+    "./eslint": "./eslint/.eslintrc.json",
+    "./next": "./next/default.config.js"
+  },
+  "files": ["tsconfig", "tailwind", "postcss.config.js", "next", "eslint", "index.js"],
+  "peerDependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "license": "MIT"
+}

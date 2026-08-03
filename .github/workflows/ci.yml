@@ -1,0 +1,96 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+# Cancel in-progress runs for the same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint all packages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm -r run lint
+
+  typecheck:
+    name: Typecheck shared packages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @paragu-ai-leads/ui run typecheck
+      - run: pnpm --filter @paragu-ai-leads/config run typecheck
+
+  # Build all apps in parallel matrix
+  build:
+    name: Build ${{ matrix.app }}
+    needs: [lint, typecheck]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app:
+          - HidroBaby-Spa
+          - Peluqueria-Barbershop
+          - Clau-Bellino
+          - Woman-Cosmeticos
+          - Barbershop-Peluqueria
+          - Avani-Belleza
+          - Scott-Tatuajes
+          - Lele-Ferreira
+          - XXGym
+          - Portas-Barber
+          - Viviesteticpy
+          - Cronos-Academy
+          - Arnos-Barber-Shop
+          - Nde-Barba
+          - Barbye-Nails
+          - Nutrifit-Spa
+          - Leticia-Carballo
+          - Shine-Nails
+          - Estudio-Medieval
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Read site.json
+        id: site
+        run: |
+          SITE_DOMAIN=$(node -e "console.log(require('./apps/${{ matrix.app }}/site.json').domain || '')")
+          echo "domain=$SITE_DOMAIN" >> $GITHUB_OUTPUT
+      - name: Build ${{ matrix.app }}
+        run: pnpm --filter ${{ matrix.app }} run build
+      - name: Upload .next output
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.app }}-build
+          path: apps/${{ matrix.app }}/.next/
+          retention-days: 3

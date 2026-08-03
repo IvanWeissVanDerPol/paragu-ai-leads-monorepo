@@ -1,0 +1,6 @@
+# pnpm workspace for the ParaguAI Leads Monorepo
+# See https://pnpm.io/workspaces for syntax
+
+packages:
+  - "apps/*"
+  - "packages/*"

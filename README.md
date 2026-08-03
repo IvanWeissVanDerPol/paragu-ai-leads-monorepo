@@ -81,3 +81,82 @@ mkdir apps/NewClient-Name
 - `paragu-ai-platform` (the main ParaguAI production repo)
 - `paragu-ai-website` (the public-facing site)
 - `ParaguAI-leads` (the CRM for tracking these leads)
+
+## Monorepo structure
+
+```
+paragu-ai-leads-monorepo/
+├── apps/                              # 19 client lead sites
+│   ├── HidroBaby-Spa/                 # Most-developed app (template)
+│   ├── Peluqueria-Barbershop/
+│   ├── ... (17 more)
+├── packages/                          # Shared code (NEW in R27)
+│   ├── ui/                            # @paragu-ai-leads/ui
+│   │   ├── src/
+│   │   │   ├── components/
+│   │   │   │   ├── BottomNav.tsx
+│   │   │   │   ├── ShareWhatsApp.tsx
+│   │   │   │   ├── PromoCarousel.tsx
+│   │   │   │   ├── DarkModeToggle.tsx
+│   │   │   │   ├── EmptyState.tsx
+│   │   │   │   └── LoadingBar.tsx
+│   │   │   ├── hooks/
+│   │   │   ├── context.ts
+│   │   │   ├── types.ts
+│   │   │   └── index.ts
+│   │   ├── package.json
+│   │   └── tsconfig.json
+│   └── config/                        # @paragu-ai-leads/config
+│       ├── tsconfig/                  # base + nextjs presets
+│       ├── tailwind/                  # default.js
+│       ├── next/                      # default.config.js
+│       ├── postcss.config.js
+│       ├── eslint/.eslintrc.json
+│       └── package.json
+├── scripts/                           # DevOps (NEW in R27)
+│   ├── dev.sh                         # Run any app
+│   ├── build-all.sh                   # Build all 19
+│   ├── deploy-all.sh                  # Deploy all 19
+│   ├── new-app.sh                     # Scaffold new app
+│   └── status.sh                      # Quick health check
+├── .github/workflows/                 # CI/CD (NEW in R27)
+│   ├── ci.yml                         # Lint + typecheck + 19-app matrix
+│   ├── deploy.yml                     # Deploy to Cloudflare Pages
+│   └── dependabot.yml                  # Auto-update deps
+├── package.json                       # Root: scripts + workspace config
+├── pnpm-workspace.yaml                # Workspace config
+└── docs/                              # Architecture, MIGRATION
+```
+
+## Daily workflow
+
+```bash
+# Bootstrap (one-time)
+pnpm install
+
+# Run any app locally
+./scripts/dev.sh HidroBaby-Spa    # http://localhost:3002
+./scripts/dev.sh                  # lists all 19 apps
+
+# Build everything
+pnpm build                         # = ./scripts/build-all.sh
+
+# Deploy
+pnpm deploy                        # = ./scripts/deploy-all.sh
+
+# Check health
+pnpm status                       # = ./scripts/status.sh
+
+# Add a new lead site
+./scripts/new-app.sh NewClient "Business Name" 595XXXXXXXX
+```
+
+## CI/CD
+
+| Event | Workflow | Action |
+|-------|----------|--------|
+| PR / push to main | `ci.yml` | Lint + typecheck + 19-app build matrix |
+| Push to main | `deploy.yml` | Auto-deploy all 19 apps to Cloudflare Pages |
+| Weekly | `dependabot.yml` | Auto-PR for npm updates |
+
+The **single pipeline replaces 19 separate pipelines** — one CI run builds all sites, one deploy pushes all of them.

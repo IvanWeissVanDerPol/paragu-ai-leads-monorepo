@@ -1,0 +1,14 @@
+# Dependabot config - keeps deps up-to-date across all 19 apps + 2 packages
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    # Group all patch updates into one PR
+    groups:
+      patch-and-minor:
+        update-types: ["minor", "patch"]
+      major:
+        update-types: ["major"]

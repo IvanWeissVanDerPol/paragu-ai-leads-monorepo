@@ -1,15 +1,15 @@
+const sharedConfig = require("@paragu-ai-leads/config/next");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  ...sharedConfig,
+  // HidroBaby-Spa-specific overrides
   images: {
+    ...sharedConfig.images,
     remotePatterns: [
-      { protocol: 'https', hostname: '**' },
+      ...sharedConfig.images.remotePatterns,
+      { protocol: "https", hostname: "hidrobabyspa.com.py" },
     ],
-  },
-  // Fix path alias for Next.js 15
-  webpack: (config) => {
-    config.resolve.alias['@'] = '/src';
-    return config;
   },
 };
 

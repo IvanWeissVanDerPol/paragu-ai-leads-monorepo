@@ -1,0 +1,23 @@
+{
+  "name": "paragu-ai-leads-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for all ParaguAI.com lead demo sites. 19 clients, shared packages, single CI/CD.",
+  "private": true,
+  "scripts": {
+    "dev": "./scripts/dev.sh",
+    "build": "./scripts/build-all.sh",
+    "deploy": "./scripts/deploy-all.sh",
+    "status": "./scripts/status.sh",
+    "new-app": "./scripts/new-app.sh",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "build:parallel": "./scripts/build-all.sh --parallel 4"
+  },
+  "devDependencies": {
+    "pnpm": "^9.0.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

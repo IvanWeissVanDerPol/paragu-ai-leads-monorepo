@@ -1,0 +1,71 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: "Comma-separated app names to deploy (default: all)"
+        required: false
+        default: "all"
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  # Determine which apps to deploy
+  prepare:
+    name: Determine apps to deploy
+    runs-on: ubuntu-latest
+    outputs:
+      apps: ${{ steps.set-apps.outputs.apps }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: set-apps
+        run: |
+          # Get list of apps that have site.json
+          APPS=$(ls apps/ | while read app; do
+            if [ -f "apps/$app/site.json" ] && [ -f "apps/$app/package.json" ]; then
+              echo "$app"
+            fi
+          done | jq -R -s 'split("\n") | map(select(length > 0))')
+          echo "apps=$APPS" >> $GITHUB_OUTPUT
+          echo "Apps to deploy: $APPS"
+
+  deploy:
+    name: Deploy ${{ matrix.app }} to Cloudflare Pages
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app: ${{ fromJson(needs.prepare.outputs.apps) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Build
+        run: pnpm --filter ${{ matrix.app }} run build
+      - name: Get Cloudflare project name
+        id: project
+        run: |
+          DOMAIN=$(node -e "console.log(require('./apps/${{ matrix.app }}/site.json').domain || '')")
+          PROJECT=$(echo "$DOMAIN" | cut -d. -f1)
+          echo "project=$PROJECT" >> $GITHUB_OUTPUT
+          echo "Deploying ${{ matrix.app }} to project=$PROJECT ($DOMAIN)"
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ steps.project.outputs.project }}
+          directory: apps/${{ matrix.app }}/.next
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
