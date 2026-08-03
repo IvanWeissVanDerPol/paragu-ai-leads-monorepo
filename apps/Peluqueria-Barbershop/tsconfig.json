@@ -1,0 +1,15 @@
+{
+  "extends": "@paragu-ai-leads/config/tsconfig/nextjs",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next.config.js",
+    "src/**/*",
+    ".next/types/**/*.ts",
+    "../../packages/ui/src/**/*"
+  ]
+}

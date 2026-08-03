@@ -1,0 +1,47 @@
+{
+  "vertical": "unknown",
+  "country": "Paraguay",
+  "domain": "leticiacarballo.com.py",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "name": "Leticia Carballo",
+  "businessName": "Leticia Carballo",
+  "shortName": "Leticia Carballo",
+  "tagline": "",
+  "phone": "+595 984 904 215",
+  "whatsapp": "595984904215",
+  "email": "",
+  "address": "",
+  "city": "Asunci\u00f3n",
+  "hours": "",
+  "founded": "",
+  "instagram": "",
+  "facebook": "",
+  "url": "https://leticiacarballo.com.py",
+  "description": "Leticia Carballo \u2014 Local business in Asunci\u00f3n, Paraguay.",
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "labelKey": "navigation.services",
+      "path": "servicios"
+    },
+    {
+      "labelKey": "navigation.about",
+      "path": "nosotros"
+    },
+    {
+      "labelKey": "navigation.contact",
+      "path": "contacto"
+    }
+  ],
+  "_meta": {
+    "extractedFrom": "WEBSITE_BRIEF.md",
+    "generatedAt": "2026-08-03",
+    "generatedBy": "wire-app.py (R28)"
+  }
+}

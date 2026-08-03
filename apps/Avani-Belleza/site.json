@@ -1,0 +1,47 @@
+{
+  "vertical": "unknown",
+  "country": "Paraguay",
+  "domain": "avanibelleza.com.py",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "name": "Avani Belleza",
+  "businessName": "Avani Belleza",
+  "shortName": "Avani Belleza",
+  "tagline": "",
+  "phone": "+595 994 202 928",
+  "whatsapp": "595994202928",
+  "email": "",
+  "address": "",
+  "city": "Asunci\u00f3n",
+  "hours": "",
+  "founded": "",
+  "instagram": "",
+  "facebook": "",
+  "url": "https://avanibelleza.com.py",
+  "description": "Avani Belleza \u2014 Local business in Asunci\u00f3n, Paraguay.",
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "labelKey": "navigation.services",
+      "path": "servicios"
+    },
+    {
+      "labelKey": "navigation.about",
+      "path": "nosotros"
+    },
+    {
+      "labelKey": "navigation.contact",
+      "path": "contacto"
+    }
+  ],
+  "_meta": {
+    "extractedFrom": "WEBSITE_BRIEF.md",
+    "generatedAt": "2026-08-03",
+    "generatedBy": "wire-app.py (R28)"
+  }
+}

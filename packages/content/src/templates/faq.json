@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "name": "Generic FAQ",
+    "description": "Default FAQ template. Customize per-app by overriding in app/content/faq.json."
+  },
+  "es": [
+    {
+      "q": "¿Cuáles son los horarios?",
+      "a": "Atendemos de lunes a sábado. Consultá nuestros horarios actualizados al final de la página."
+    },
+    {
+      "q": "¿Cómo puedo reservar un turno?",
+      "a": "Podés reservar desde el botón 'Reservar' en el menú o contactarnos directamente por WhatsApp."
+    },
+    {
+      "q": "¿Aceptan transferencias o tarjetas?",
+      "a": "Sí, aceptamos efectivo, transferencia y tarjetas. Consultá por promociones pagando en efectivo."
+    },
+    {
+      "q": "¿Dónde están ubicados?",
+      "a": "Consultá nuestra dirección en la sección de contacto al final de la página."
+    }
+  ],
+  "en": [
+    {
+      "q": "What are your hours?",
+      "a": "We're open Monday through Saturday. Check our current hours at the bottom of the page."
+    },
+    {
+      "q": "How do I book an appointment?",
+      "a": "You can book from the 'Book' button in the menu or contact us directly on WhatsApp."
+    },
+    {
+      "q": "Do you accept transfers or cards?",
+      "a": "Yes, we accept cash, transfers, and cards. Ask about cash payment promotions."
+    },
+    {
+      "q": "Where are you located?",
+      "a": "Check our address in the contact section at the bottom of the page."
+    }
+  ]
+}

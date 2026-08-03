@@ -1,0 +1,76 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "gallery": "Galería",
+    "blog": "Blog",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "booking": "Reservar",
+    "pricing": "Precios",
+    "faq": "Preguntas",
+    "testimonials": "Testimonios"
+  },
+  "common": {
+    "viewMore": "Ver más",
+    "viewLess": "Ver menos",
+    "viewAll": "Ver todo",
+    "viewOffers": "Ver ofertas",
+    "learnMore": "Conocé más",
+    "getInTouch": "Contactar",
+    "bookNow": "Reservar ahora",
+    "callNow": "Llamar ahora",
+    "whatsappUs": "Escribinos por WhatsApp",
+    "share": "Compartir",
+    "loading": "Cargando...",
+    "empty": "Sin contenido",
+    "back": "Volver",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "cancel": "Cancelar"
+  },
+  "home": {
+    "heroCta": "Contactar por WhatsApp",
+    "aboutTitle": "Acerca de nosotros",
+    "servicesTitle": "Servicios",
+    "galleryTitle": "Galería",
+    "testimonialsTitle": "Lo que dicen nuestros clientes",
+    "contactTitle": "Contactanos",
+    "locationTitle": "Dónde encontrarnos",
+    "hoursTitle": "Horarios"
+  },
+  "services": {
+    "title": "Nuestros servicios",
+    "subtitle": "Lo que ofrecemos",
+    "priceFrom": "Desde",
+    "bookThis": "Reservar este servicio",
+    "duration": "Duración",
+    "includes": "Incluye"
+  },
+  "contact": {
+    "title": "Contactanos",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar mensaje",
+    "orCallUs": "O llamanos",
+    "findUs": "Encontranos"
+  },
+  "booking": {
+    "title": "Reservar turno",
+    "selectDate": "Seleccioná fecha",
+    "selectTime": "Seleccioná horario",
+    "selectService": "Seleccioná servicio",
+    "yourName": "Tu nombre",
+    "yourPhone": "Tu teléfono",
+    "confirmBooking": "Confirmar reserva",
+    "bookingSent": "¡Reserva enviada! Te confirmamos por WhatsApp."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "followUs": "Seguinos",
+    "contactUs": "Contactanos"
+  }
+}

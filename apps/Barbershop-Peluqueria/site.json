@@ -1,0 +1,47 @@
+{
+  "vertical": "unknown",
+  "country": "Paraguay",
+  "domain": "barbershoppeluqueria.com.py",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "name": "Peluquer\u00eda Barbershop",
+  "businessName": "Peluquer\u00eda Barbershop",
+  "shortName": "Peluquer\u00eda Barbershop",
+  "tagline": "",
+  "phone": "+595 982 992 766",
+  "whatsapp": "595982992766",
+  "email": "",
+  "address": "",
+  "city": "Asunci\u00f3n",
+  "hours": "",
+  "founded": "",
+  "instagram": "",
+  "facebook": "",
+  "url": "https://barbershoppeluqueria.com.py",
+  "description": "Peluquer\u00eda Barbershop \u2014 Local business in Asunci\u00f3n, Paraguay.",
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "labelKey": "navigation.services",
+      "path": "servicios"
+    },
+    {
+      "labelKey": "navigation.about",
+      "path": "nosotros"
+    },
+    {
+      "labelKey": "navigation.contact",
+      "path": "contacto"
+    }
+  ],
+  "_meta": {
+    "extractedFrom": "WEBSITE_BRIEF.md",
+    "generatedAt": "2026-08-03",
+    "generatedBy": "wire-app.py (R28)"
+  }
+}

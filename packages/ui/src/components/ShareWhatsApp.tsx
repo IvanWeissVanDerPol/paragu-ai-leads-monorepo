@@ -1,3 +1,4 @@
+"use client"
 import { useBusiness } from "../hooks/useBusiness";
 
 export function ShareWhatsApp({ title, url }: { title: string; url?: string }) {

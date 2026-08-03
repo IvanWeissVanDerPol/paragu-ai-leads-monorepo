@@ -8,6 +8,9 @@ export { DarkModeToggle } from "./components/DarkModeToggle";
 export { EmptyState } from "./components/EmptyState";
 export { LoadingBar } from "./components/LoadingBar";
 
+// Context
+export { BusinessProvider, BusinessContext } from "./context";
+
 // Types
 export type { Lang } from "./types";
 

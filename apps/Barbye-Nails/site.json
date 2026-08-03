@@ -1,0 +1,47 @@
+{
+  "vertical": "unknown",
+  "country": "Paraguay",
+  "domain": "barbyenails.com.py",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "name": "Barbye Nails",
+  "businessName": "Barbye Nails",
+  "shortName": "Barbye Nails",
+  "tagline": "",
+  "phone": "+595 961 336 346",
+  "whatsapp": "595961336346",
+  "email": "",
+  "address": "",
+  "city": "Asunci\u00f3n",
+  "hours": "",
+  "founded": "",
+  "instagram": "",
+  "facebook": "",
+  "url": "https://barbyenails.com.py",
+  "description": "Barbye Nails \u2014 Local business in Asunci\u00f3n, Paraguay.",
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "labelKey": "navigation.services",
+      "path": "servicios"
+    },
+    {
+      "labelKey": "navigation.about",
+      "path": "nosotros"
+    },
+    {
+      "labelKey": "navigation.contact",
+      "path": "contacto"
+    }
+  ],
+  "_meta": {
+    "extractedFrom": "WEBSITE_BRIEF.md",
+    "generatedAt": "2026-08-03",
+    "generatedBy": "wire-app.py (R28)"
+  }
+}

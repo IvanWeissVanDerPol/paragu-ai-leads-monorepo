@@ -1,0 +1,47 @@
+{
+  "vertical": "unknown",
+  "country": "Paraguay",
+  "domain": "estudiomedieval.com.py",
+  "defaultLocale": "es",
+  "locales": [
+    "es"
+  ],
+  "name": "Estudio Medieval",
+  "businessName": "Estudio Medieval",
+  "shortName": "Estudio Medieval",
+  "tagline": "",
+  "phone": "+595 961 482 854",
+  "whatsapp": "595961482854",
+  "email": "",
+  "address": "",
+  "city": "Asunci\u00f3n",
+  "hours": "",
+  "founded": "",
+  "instagram": "",
+  "facebook": "",
+  "url": "https://estudiomedieval.com.py",
+  "description": "Estudio Medieval \u2014 Local business in Asunci\u00f3n, Paraguay.",
+  "navigation": [
+    {
+      "labelKey": "navigation.home",
+      "path": ""
+    },
+    {
+      "labelKey": "navigation.services",
+      "path": "servicios"
+    },
+    {
+      "labelKey": "navigation.about",
+      "path": "nosotros"
+    },
+    {
+      "labelKey": "navigation.contact",
+      "path": "contacto"
+    }
+  ],
+  "_meta": {
+    "extractedFrom": "WEBSITE_BRIEF.md",
+    "generatedAt": "2026-08-03",
+    "generatedBy": "wire-app.py (R28)"
+  }
+}

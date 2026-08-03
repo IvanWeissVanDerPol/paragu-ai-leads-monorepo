@@ -1,0 +1,76 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "booking": "Book",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "testimonials": "Reviews"
+  },
+  "common": {
+    "viewMore": "View more",
+    "viewLess": "View less",
+    "viewAll": "View all",
+    "viewOffers": "View offers",
+    "learnMore": "Learn more",
+    "getInTouch": "Get in touch",
+    "bookNow": "Book now",
+    "callNow": "Call now",
+    "whatsappUs": "WhatsApp us",
+    "share": "Share",
+    "loading": "Loading...",
+    "empty": "No content",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "home": {
+    "heroCta": "Contact us on WhatsApp",
+    "aboutTitle": "About us",
+    "servicesTitle": "Services",
+    "galleryTitle": "Gallery",
+    "testimonialsTitle": "What our customers say",
+    "contactTitle": "Contact us",
+    "locationTitle": "Where to find us",
+    "hoursTitle": "Hours"
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "What we offer",
+    "priceFrom": "From",
+    "bookThis": "Book this service",
+    "duration": "Duration",
+    "includes": "Includes"
+  },
+  "contact": {
+    "title": "Contact us",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "orCallUs": "Or call us",
+    "findUs": "Find us"
+  },
+  "booking": {
+    "title": "Book appointment",
+    "selectDate": "Select date",
+    "selectTime": "Select time",
+    "selectService": "Select service",
+    "yourName": "Your name",
+    "yourPhone": "Your phone",
+    "confirmBooking": "Confirm booking",
+    "bookingSent": "Booking sent! We'll confirm on WhatsApp."
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "followUs": "Follow us",
+    "contactUs": "Contact us"
+  }
+}
