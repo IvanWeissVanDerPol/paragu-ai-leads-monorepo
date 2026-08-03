@@ -160,3 +160,10 @@ pnpm status                       # = ./scripts/status.sh
 | Weekly | `dependabot.yml` | Auto-PR for npm updates |
 
 The **single pipeline replaces 19 separate pipelines** — one CI run builds all sites, one deploy pushes all of them.
+
+
+## Smoke Test Status
+
+✅ **All 19 apps build successfully** (verified R29, 2026-08-03).
+
+See [docs/SMOKE_TEST_RESULTS.md](docs/SMOKE_TEST_RESULTS.md) for the full per-app build report.
