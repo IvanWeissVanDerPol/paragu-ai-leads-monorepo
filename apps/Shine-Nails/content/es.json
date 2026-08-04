@@ -139,6 +139,7 @@
         "description": "Conocé nuestros servicios con un descuento especial. Ideal para probar Shine Nails por primera vez.",
         "originalPrice": "Gs. 300.000",
         "price": "Gs. 250.000",
+        "icon": "gift",
         "items": [
           "Una sesión de cualquier servicio",
           "Asesoría personalizada"
@@ -149,6 +150,7 @@
         "description": "3 sesiones con 15% de descuento. Recomendado para resultados visibles y duraderos.",
         "originalPrice": "Gs. 600.000",
         "price": "Gs. 510.000",
+        "icon": "package",
         "items": [
           "3 sesiones a elección",
           "Seguimiento entre sesiones",
@@ -160,6 +162,7 @@
         "description": "La experiencia completa de Shine Nails. 6 sesiones + atenciones especiales.",
         "originalPrice": "Gs. 1.200.000",
         "price": "Gs. 950.000",
+        "icon": "crown",
         "items": [
           "6 sesiones a elección",
           "Atención prioritaria",

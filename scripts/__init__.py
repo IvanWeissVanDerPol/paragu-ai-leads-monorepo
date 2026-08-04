@@ -1,0 +1,1 @@
+"""scripts — ParaguAI lead-site automation."""

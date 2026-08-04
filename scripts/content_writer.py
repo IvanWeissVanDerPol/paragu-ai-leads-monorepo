@@ -30,6 +30,9 @@ import sys
 from pathlib import Path
 from typing import Optional
 
+sys.path.insert(0, str(Path(__file__).parent))
+from icon_mapper import pick_icon, map_icons
+
 
 # ============================================================================
 # Industry templates
@@ -356,7 +359,7 @@ def generate_content(app_dir: Path, preview: bool = False) -> dict:
     if brief["services"]:
         # Use brief services + add descriptions from template defaults where possible
         items = []
-        for s in brief["services"][:6]:
+        for i, s in enumerate(brief["services"][:6]):
             # Try to match with template
             match = None
             for td in template.get("services_default", []):
@@ -368,14 +371,14 @@ def generate_content(app_dir: Path, preview: bool = False) -> dict:
                     "title": s,
                     "description": match["description"],
                     "price": match.get("price", "Consultar"),
-                    "icon": match.get("icon", "sparkles"),
+                    "icon": match.get("icon") or pick_icon(s, fallback_index=i),
                 })
             else:
                 items.append({
                     "title": s,
                     "description": f"Servicio profesional de {s.lower()}. Realizado por {brief['owner'] or 'nuestro equipo'} con productos certificados.",
                     "price": "Consultar",
-                    "icon": "sparkles",
+                    "icon": pick_icon(s, fallback_index=i),
                 })
     else:
         items = template.get("services_default", [])
@@ -394,14 +397,17 @@ def generate_content(app_dir: Path, preview: bool = False) -> dict:
         {"name": f"Pack Inicial",
          "description": f"Conocé nuestros servicios con un descuento especial. Ideal para probar {business} por primera vez.",
          "originalPrice": "Gs. 300.000", "price": "Gs. 250.000",
+         "icon": "gift",
          "items": ["Una sesión de cualquier servicio", "Asesoría personalizada"]},
         {"name": "Pack Trimestral",
          "description": f"3 sesiones con 15% de descuento. Recomendado para resultados visibles y duraderos.",
          "originalPrice": "Gs. 600.000", "price": "Gs. 510.000",
+         "icon": "package",
          "items": ["3 sesiones a elección", "Seguimiento entre sesiones", "Productos de regalo"]},
         {"name": "Pack Premium",
          "description": f"La experiencia completa de {business}. 6 sesiones + atenciones especiales.",
          "originalPrice": "Gs. 1.200.000", "price": "Gs. 950.000",
+         "icon": "crown",
          "items": ["6 sesiones a elección", "Atención prioritaria", "Kit de productos", "Sesión de regalo al finalizar"]},
     ]
 

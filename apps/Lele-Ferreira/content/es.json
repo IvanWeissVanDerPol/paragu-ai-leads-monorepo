@@ -102,7 +102,7 @@
         "title": "Maquillaje de novia",
         "description": "Servicio profesional de maquillaje de novia. Realizado por Lele Ferreira con productos certificados.",
         "price": "Consultar",
-        "icon": "sparkles"
+        "icon": "star"
       },
       {
         "title": "Cursos de automaquillaje",
@@ -114,13 +114,13 @@
         "title": "Maquillaje editorial",
         "description": "Servicio profesional de maquillaje editorial. Realizado por Lele Ferreira con productos certificados.",
         "price": "Consultar",
-        "icon": "sparkles"
+        "icon": "shield"
       },
       {
         "title": "Peinados",
         "description": "Servicio profesional de peinados. Realizado por Lele Ferreira con productos certificados.",
         "price": "Consultar",
-        "icon": "sparkles"
+        "icon": "drop"
       }
     ]
   },
@@ -133,6 +133,7 @@
         "description": "Conocé nuestros servicios con un descuento especial. Ideal para probar Lele Ferreira por primera vez.",
         "originalPrice": "Gs. 300.000",
         "price": "Gs. 250.000",
+        "icon": "gift",
         "items": [
           "Una sesión de cualquier servicio",
           "Asesoría personalizada"
@@ -143,6 +144,7 @@
         "description": "3 sesiones con 15% de descuento. Recomendado para resultados visibles y duraderos.",
         "originalPrice": "Gs. 600.000",
         "price": "Gs. 510.000",
+        "icon": "package",
         "items": [
           "3 sesiones a elección",
           "Seguimiento entre sesiones",
@@ -154,6 +156,7 @@
         "description": "La experiencia completa de Lele Ferreira. 6 sesiones + atenciones especiales.",
         "originalPrice": "Gs. 1.200.000",
         "price": "Gs. 950.000",
+        "icon": "crown",
         "items": [
           "6 sesiones a elección",
           "Atención prioritaria",

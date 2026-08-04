@@ -1,0 +1,62 @@
+# ============================================================
+# wrangler.toml — Cloudflare Pages config (per lead-site app)
+# ============================================================
+# This file lives at: apps/<app-name>/wrangler.toml
+#
+# Cloudflare Pages can run a full Next.js app via @cloudflare/next-on-pages
+# OR a static export via the simpler "out/" approach.
+#
+# We use STATIC EXPORT because:
+#   - Cheaper (Pages free tier: unlimited static requests)
+#   - Faster (CDN, no cold start)
+#   - Simpler (no Workers runtime config)
+#
+# Each app's next.config.js needs:
+#   output: 'export'
+#   images: { unoptimized: true }   # CF doesn't support next/image
+#
+# ============================================================
+
+name = "REPLACE_WITH_APP_SLUG"   # e.g., "claubellino", "hidrobaby-spa"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "./out"
+
+# ----- Custom domain (uncomment + edit per app) -----
+# [[env.production.routes]]
+# pattern = "claubellino.com.py/*"
+# custom_domain = true
+
+# [[env.production.routes]]
+# pattern = "claubellino.paragu-ai.com/*"
+# custom_domain = true
+
+# ----- Environment variables (visible in Pages dashboard) -----
+[vars]
+NEXT_PUBLIC_SITE_NAME = "REPLACE_WITH_BUSINESS_NAME"
+NEXT_PUBLIC_WHATSAPP = "REPLACE_WITH_WHATSAPP"
+NEXT_PUBLIC_CITY = "Asunción"
+
+# ----- Headers (security + caching) -----
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ----- Redirects (legacy paths, www, etc) -----
+# [[redirects]]
+#   from = "/old-path"
+#   to = "/new-path"
+#   status = 301
