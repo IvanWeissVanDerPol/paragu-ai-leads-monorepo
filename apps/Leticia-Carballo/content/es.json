@@ -5,7 +5,7 @@
     "lastReviewed": "2026-08-03",
     "version": "2.0",
     "generatedBy": "content_writer.py (R35)",
-    "vertical": "spa"
+    "vertical": "academy"
   },
   "site": {
     "vertical": "unknown",
@@ -80,11 +80,11 @@
     ]
   },
   "hero": {
-    "headline": "Relajación y Bienestar en Asunción",
-    "subheadline": "Tratamientos profesionales · Asunción · 4.6★",
-    "description": "Spa profesional con ambiente acogedor. Hidromasaje, masajes y tratamientos pensados para desconectar y renovar energía.",
-    "ctaPrimaryText": "Reservar Sesión",
-    "ctaSecondaryText": "Ver Paquetes",
+    "headline": "Leticia Carballo — Academia en Asunción",
+    "subheadline": "Profesores certificados · 4.6★",
+    "description": "Academia profesional con cursos personalizados. Metodología probada y resultados reales.",
+    "ctaPrimaryText": "Inscribirme",
+    "ctaSecondaryText": "Ver Cursos",
     "ctaPrimaryHref": "#contacto",
     "ctaSecondaryHref": "#servicios"
   },
@@ -94,31 +94,31 @@
     "items": [
       {
         "title": "Maquillaje social",
-        "description": "Servicio profesional de maquillaje social. Realizado por | Leticia Carballo | con productos certificados.",
+        "description": "Servicio profesional de maquillaje social. Realizado por Leticia Carballo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Maquillaje de novia",
-        "description": "Servicio profesional de maquillaje de novia. Realizado por | Leticia Carballo | con productos certificados.",
+        "description": "Servicio profesional de maquillaje de novia. Realizado por Leticia Carballo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Cursos de automaquillaje",
-        "description": "Servicio profesional de cursos de automaquillaje. Realizado por | Leticia Carballo | con productos certificados.",
+        "description": "Cursos completos con material y certificación. Grupos reducidos para atención personalizada.",
         "price": "Consultar",
-        "icon": "sparkles"
+        "icon": "book"
       },
       {
         "title": "Maquillaje editorial",
-        "description": "Servicio profesional de maquillaje editorial. Realizado por | Leticia Carballo | con productos certificados.",
+        "description": "Servicio profesional de maquillaje editorial. Realizado por Leticia Carballo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Peinados",
-        "description": "Servicio profesional de peinados. Realizado por | Leticia Carballo | con productos certificados.",
+        "description": "Servicio profesional de peinados. Realizado por Leticia Carballo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       }

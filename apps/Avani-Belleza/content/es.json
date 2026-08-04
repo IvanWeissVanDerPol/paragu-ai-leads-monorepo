@@ -5,7 +5,7 @@
     "lastReviewed": "2026-08-03",
     "version": "2.0",
     "generatedBy": "content_writer.py (R35)",
-    "vertical": "spa"
+    "vertical": "nails"
   },
   "site": {
     "vertical": "unknown",
@@ -80,11 +80,11 @@
     ]
   },
   "hero": {
-    "headline": "Relajación y Bienestar en Asunción",
-    "subheadline": "Tratamientos profesionales · Asunción · 4.7★",
-    "description": "Spa profesional con ambiente acogedor. Hidromasaje, masajes y tratamientos pensados para desconectar y renovar energía.",
-    "ctaPrimaryText": "Reservar Sesión",
-    "ctaSecondaryText": "Ver Paquetes",
+    "headline": "Avani Belleza — Belleza para tus manos",
+    "subheadline": "Manicura, nail art y extensiones · Asunción",
+    "description": "Salón de uñas profesional en Asunción. Diseños únicos, productos de calidad y atención personalizada para cada clienta.",
+    "ctaPrimaryText": "Reservar Turno",
+    "ctaSecondaryText": "Ver Diseños",
     "ctaPrimaryHref": "#contacto",
     "ctaSecondaryHref": "#servicios"
   },
@@ -94,33 +94,33 @@
     "items": [
       {
         "title": "Corte y peinado",
-        "description": "Servicio profesional de corte y peinado. Realizado por | Unknown | con productos certificados.",
+        "description": "Servicio profesional de corte y peinado. Realizado por nuestro equipo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Tratamientos capilares",
-        "description": "Limpieza + hidratación + mascarilla adaptada a tu tipo de piel.",
-        "price": "Gs. 200.000",
-        "icon": "sparkles"
-      },
-      {
-        "title": "Manicura",
-        "description": "Servicio profesional de manicura. Realizado por | Unknown | con productos certificados.",
+        "description": "Servicio profesional de tratamientos capilares. Realizado por nuestro equipo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
+        "title": "Manicura",
+        "description": "Manicura completa: limado, cutículas, hidratación y esmaltado tradicional. Acabado prolijo que dura.",
+        "price": "Gs. 60.000",
+        "icon": "sparkles"
+      },
+      {
         "title": "Maquillaje",
-        "description": "Servicio profesional de maquillaje. Realizado por | Unknown | con productos certificados.",
+        "description": "Servicio profesional de maquillaje. Realizado por nuestro equipo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Depilación",
-        "description": "Servicio profesional de depilación. Realizado por | Unknown | con productos certificados.",
-        "price": "Consultar",
-        "icon": "sparkles"
+        "description": "Pestañas pelo a pelo con técnica profesional. Mirada intensa y natural.",
+        "price": "Gs. 180.000",
+        "icon": "eye"
       }
     ]
   },
@@ -237,7 +237,36 @@
   "faq": {
     "title": "Preguntas Frecuentes",
     "subtitle": "Respondemos las dudas más comunes de nuestros clientes",
-    "items": []
+    "items": [
+      {
+        "question": "¿Cuánto dura una cita?",
+        "answer": "Manicura tradicional: 45 min. Semipermanente: 1 hora. Acrílicas: 2 horas. Te confirmamos al reservar."
+      },
+      {
+        "question": "¿Necesito turno previo?",
+        "answer": "Sí, trabajamos con turnos para darte la atención que merecés. Escribinos por WhatsApp."
+      },
+      {
+        "question": "¿Qué productos usan?",
+        "answer": "Trabajamos con marcas profesionales hipoalergénicas. Tus uñas quedan protegidas y saludables."
+      },
+      {
+        "question": "¿Puedo llevar mi propio diseño?",
+        "answer": "¡Por supuesto! Trabajamos con referencia o foto. Te asesoramos sobre lo que queda mejor en tus manos."
+      },
+      {
+        "question": "¿Cuánto dura el esmaltado semipermanente?",
+        "answer": "Entre 2 y 3 semanas con cuidado normal. Te enseñamos cómo hacerlo durar más."
+      },
+      {
+        "question": "¿Atienden hombres?",
+        "answer": "Sí, manicura y pedicura también son para hombres. Acabados discretos y prolijos."
+      },
+      {
+        "question": "¿Cómo reservo?",
+        "answer": "Tocá el botón de WhatsApp, escribinos el servicio que querés y te confirmamos horario."
+      }
+    ]
   },
   "pricing": {
     "title": "Precios Transparentes",

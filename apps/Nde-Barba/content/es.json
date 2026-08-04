@@ -5,7 +5,7 @@
     "lastReviewed": "2026-08-03",
     "version": "2.0",
     "generatedBy": "content_writer.py (R35)",
-    "vertical": "facial_aesthetics"
+    "vertical": "barber"
   },
   "site": {
     "vertical": "unknown",
@@ -80,9 +80,9 @@
     ]
   },
   "hero": {
-    "headline": "Nde Barba Barbería — Estética Facial Profesional",
-    "subheadline": "4.8★ en Google · 118+ reseñas · Asunción",
-    "description": "Tratamientos faciales personalizados con productos dermatológicos certificados. Cuidamos tu piel con la atención que merecés.",
+    "headline": "Barbería Profesional en Asunción",
+    "subheadline": "4.8★ en Google · 118+ clientes satisfechos",
+    "description": "Cortes clásicos y modernos, perfiles definidos, y ambiente que invita a quedarse. Atendemos con y sin turno.",
     "ctaPrimaryText": "Reservar Turno",
     "ctaSecondaryText": "Ver Servicios",
     "ctaPrimaryHref": "#contacto",
@@ -94,32 +94,32 @@
     "items": [
       {
         "title": "Corte de cabello",
-        "description": "Servicio profesional de corte de cabello. Realizado por | Unknown | con productos certificados.",
-        "price": "Consultar",
-        "icon": "sparkles"
+        "description": "Corte profesional con tijera y máquina, lavado y peinado. Incluye consulta de estilo.",
+        "price": "Gs. 50.000",
+        "icon": "scissors"
       },
       {
         "title": "Barba y bigote",
-        "description": "Servicio profesional de barba y bigote. Realizado por | Unknown | con productos certificados.",
-        "price": "Consultar",
-        "icon": "sparkles"
+        "description": "Combo completo: corte, perfilado de barba con navaja, toalla caliente y after shave.",
+        "price": "Gs. 80.000",
+        "icon": "razor"
       },
       {
         "title": "Tratamientos capilares",
-        "description": "Protocolo especializado para reducir arrugas, flacidez y manchas. Incluye drenaje facial y aplicación de activos rejuvenecedores.",
-        "price": "Gs. 350.000",
-        "icon": "shield"
-      },
-      {
-        "title": "Coloración",
-        "description": "Servicio profesional de coloración. Realizado por | Unknown | con productos certificados.",
+        "description": "Servicio profesional de tratamientos capilares. Realizado por nuestro equipo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
+        "title": "Coloración",
+        "description": "Tinturado profesional para cubrir canas o cambiar look. Productos sin amoníaco.",
+        "price": "Gs. 100.000",
+        "icon": "color"
+      },
+      {
         "title": "Facial express",
-        "description": "Removemos impurezas, células muertas y puntos negros con productos dermatológicos. Tu piel queda limpia, luminosa y fresca.",
-        "price": "Gs. 150.000",
+        "description": "Servicio profesional de facial express. Realizado por nuestro equipo con productos certificados.",
+        "price": "Consultar",
         "icon": "sparkles"
       }
     ]
@@ -237,36 +237,7 @@
   "faq": {
     "title": "Preguntas Frecuentes",
     "subtitle": "Respondemos las dudas más comunes de nuestros clientes",
-    "items": [
-      {
-        "question": "¿Cuánto dura cada sesión?",
-        "answer": "La mayoría de nuestros tratamientos duran entre 60 y 90 minutos. Te confirmamos el tiempo exacto cuando reserves."
-      },
-      {
-        "question": "¿Necesito turno previo?",
-        "answer": "Sí, trabajamos con turnos agendados para dedicarte el tiempo que necesitás. Escribinos por WhatsApp y te confirmamos disponibilidad."
-      },
-      {
-        "question": "¿Qué productos usan?",
-        "answer": "Trabajamos con marcas dermatológicas certificadas. Te explicamos cada producto que usamos durante la sesión."
-      },
-      {
-        "question": "¿Atienden hombres también?",
-        "answer": "Por supuesto. Cada vez más hombres cuidan su piel y tenemos protocolos adaptados para todo tipo de piel."
-      },
-      {
-        "question": "¿Tienen promociones?",
-        "answer": "Sí, tenemos paquetes combinados y descuentos por sesiones múltiples. Preguntanos por WhatsApp."
-      },
-      {
-        "question": "¿Cuándo veo los resultados?",
-        "answer": "La limpieza facial se ve desde el primer día. Para tratamientos como peeling o anti-edad, los resultados óptimos aparecen entre la 2da y 4ta sesión."
-      },
-      {
-        "question": "¿Cómo reservo?",
-        "answer": "Tocá el botón de WhatsApp, escribinos tu nombre y el tratamiento que querés. Te confirmamos horario en el día."
-      }
-    ]
+    "items": []
   },
   "pricing": {
     "title": "Precios Transparentes",

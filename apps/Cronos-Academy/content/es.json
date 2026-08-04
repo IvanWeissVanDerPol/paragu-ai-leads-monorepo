@@ -5,7 +5,7 @@
     "lastReviewed": "2026-08-03",
     "version": "2.0",
     "generatedBy": "content_writer.py (R35)",
-    "vertical": "spa"
+    "vertical": "gym"
   },
   "site": {
     "vertical": "unknown",
@@ -80,11 +80,11 @@
     ]
   },
   "hero": {
-    "headline": "Relajación y Bienestar en Asunción",
-    "subheadline": "Tratamientos profesionales · Asunción · 4.9★",
-    "description": "Spa profesional con ambiente acogedor. Hidromasaje, masajes y tratamientos pensados para desconectar y renovar energía.",
-    "ctaPrimaryText": "Reservar Sesión",
-    "ctaSecondaryText": "Ver Paquetes",
+    "headline": "Entrená en Cronos Academy",
+    "subheadline": "Asunción · 4.9★ · Equipos modernos",
+    "description": "Gimnasio con equipos de última generación, ambiente familiar y entrenadores certificados.",
+    "ctaPrimaryText": "Clase de Prueba",
+    "ctaSecondaryText": "Ver Planes",
     "ctaPrimaryHref": "#contacto",
     "ctaSecondaryHref": "#servicios"
   },
@@ -94,31 +94,31 @@
     "items": [
       {
         "title": "Entrenamiento funcional",
-        "description": "Servicio profesional de entrenamiento funcional. Realizado por | Unknown | con productos certificados.",
+        "description": "Servicio profesional de entrenamiento funcional. Realizado por nuestro equipo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Musculación",
-        "description": "Servicio profesional de musculación. Realizado por | Unknown | con productos certificados.",
+        "description": "Servicio profesional de musculación. Realizado por nuestro equipo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Clases grupales",
-        "description": "Servicio profesional de clases grupales. Realizado por | Unknown | con productos certificados.",
+        "description": "Servicio profesional de clases grupales. Realizado por nuestro equipo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Entrenamiento personal",
-        "description": "Servicio profesional de entrenamiento personal. Realizado por | Unknown | con productos certificados.",
-        "price": "Consultar",
-        "icon": "sparkles"
+        "description": "Sesiones individuales con plan personalizado. 1, 3 o 5 veces por semana.",
+        "price": "Gs. 100.000/sesión",
+        "icon": "user"
       },
       {
         "title": "Nutrición deportiva",
-        "description": "Servicio profesional de nutrición deportiva. Realizado por | Unknown | con productos certificados.",
+        "description": "Servicio profesional de nutrición deportiva. Realizado por nuestro equipo con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       }

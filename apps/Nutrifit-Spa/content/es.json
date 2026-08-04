@@ -5,7 +5,7 @@
     "lastReviewed": "2026-08-03",
     "version": "2.0",
     "generatedBy": "content_writer.py (R35)",
-    "vertical": "facial_aesthetics"
+    "vertical": "spa"
   },
   "site": {
     "vertical": "unknown",
@@ -80,11 +80,11 @@
     ]
   },
   "hero": {
-    "headline": "Nutrifit Spa — Estética Facial Profesional",
-    "subheadline": "4.6★ en Google · 233+ reseñas · Asunción",
-    "description": "Tratamientos faciales personalizados con productos dermatológicos certificados. Cuidamos tu piel con la atención que merecés.",
-    "ctaPrimaryText": "Reservar Turno",
-    "ctaSecondaryText": "Ver Servicios",
+    "headline": "Relajación y Bienestar en Asunción",
+    "subheadline": "Tratamientos profesionales · Asunción · 4.6★",
+    "description": "Spa profesional con ambiente acogedor. Hidromasaje, masajes y tratamientos pensados para desconectar y renovar energía.",
+    "ctaPrimaryText": "Reservar Sesión",
+    "ctaSecondaryText": "Ver Paquetes",
     "ctaPrimaryHref": "#contacto",
     "ctaSecondaryHref": "#servicios"
   },
@@ -94,31 +94,31 @@
     "items": [
       {
         "title": "Masajes reductivos",
-        "description": "Servicio profesional de masajes reductivos. Realizado por | Auda Riveros | con productos certificados.",
-        "price": "Consultar",
-        "icon": "sparkles"
+        "description": "Masaje profundo para liberar tensiones del cuello, espalda y piernas. Duración 60 min.",
+        "price": "Gs. 220.000",
+        "icon": "hands"
       },
       {
         "title": "Tratamientos faciales",
-        "description": "Removemos impurezas, células muertas y puntos negros con productos dermatológicos. Tu piel queda limpia, luminosa y fresca.",
-        "price": "Gs. 150.000",
+        "description": "Limpieza + hidratación + mascarilla adaptada a tu tipo de piel.",
+        "price": "Gs. 200.000",
         "icon": "sparkles"
       },
       {
         "title": "Nutrición deportiva",
-        "description": "Servicio profesional de nutrición deportiva. Realizado por | Auda Riveros | con productos certificados.",
+        "description": "Servicio profesional de nutrición deportiva. Realizado por Auda Riveros con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Drenaje linfático",
-        "description": "Servicio profesional de drenaje linfático. Realizado por | Auda Riveros | con productos certificados.",
+        "description": "Servicio profesional de drenaje linfático. Realizado por Auda Riveros con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       },
       {
         "title": "Spa relajación",
-        "description": "Servicio profesional de spa relajación. Realizado por | Auda Riveros | con productos certificados.",
+        "description": "Servicio profesional de spa relajación. Realizado por Auda Riveros con productos certificados.",
         "price": "Consultar",
         "icon": "sparkles"
       }
@@ -237,36 +237,7 @@
   "faq": {
     "title": "Preguntas Frecuentes",
     "subtitle": "Respondemos las dudas más comunes de nuestros clientes",
-    "items": [
-      {
-        "question": "¿Cuánto dura cada sesión?",
-        "answer": "La mayoría de nuestros tratamientos duran entre 60 y 90 minutos. Te confirmamos el tiempo exacto cuando reserves."
-      },
-      {
-        "question": "¿Necesito turno previo?",
-        "answer": "Sí, trabajamos con turnos agendados para dedicarte el tiempo que necesitás. Escribinos por WhatsApp y te confirmamos disponibilidad."
-      },
-      {
-        "question": "¿Qué productos usan?",
-        "answer": "Trabajamos con marcas dermatológicas certificadas. Te explicamos cada producto que usamos durante la sesión."
-      },
-      {
-        "question": "¿Atienden hombres también?",
-        "answer": "Por supuesto. Cada vez más hombres cuidan su piel y tenemos protocolos adaptados para todo tipo de piel."
-      },
-      {
-        "question": "¿Tienen promociones?",
-        "answer": "Sí, tenemos paquetes combinados y descuentos por sesiones múltiples. Preguntanos por WhatsApp."
-      },
-      {
-        "question": "¿Cuándo veo los resultados?",
-        "answer": "La limpieza facial se ve desde el primer día. Para tratamientos como peeling o anti-edad, los resultados óptimos aparecen entre la 2da y 4ta sesión."
-      },
-      {
-        "question": "¿Cómo reservo?",
-        "answer": "Tocá el botón de WhatsApp, escribinos tu nombre y el tratamiento que querés. Te confirmamos horario en el día."
-      }
-    ]
+    "items": []
   },
   "pricing": {
     "title": "Precios Transparentes",

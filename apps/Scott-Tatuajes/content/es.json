@@ -5,7 +5,7 @@
     "lastReviewed": "2026-08-03",
     "version": "2.0",
     "generatedBy": "content_writer.py (R35)",
-    "vertical": "spa"
+    "vertical": "tattoo"
   },
   "site": {
     "vertical": "unknown",
@@ -80,11 +80,11 @@
     ]
   },
   "hero": {
-    "headline": "Relajación y Bienestar en Asunción",
-    "subheadline": "Tratamientos profesionales · Asunción · 4.6★",
-    "description": "Spa profesional con ambiente acogedor. Hidromasaje, masajes y tratamientos pensados para desconectar y renovar energía.",
+    "headline": "Scott Tatuajes — Estudio de Tatuajes",
+    "subheadline": "Diseños personalizados · Asunción · 4.6★",
+    "description": "Estudio profesional de tatuajes con artistas certificados. Higiene impecable y diseños únicos.",
     "ctaPrimaryText": "Reservar Sesión",
-    "ctaSecondaryText": "Ver Paquetes",
+    "ctaSecondaryText": "Ver Portfolio",
     "ctaPrimaryHref": "#contacto",
     "ctaSecondaryHref": "#servicios"
   },
@@ -94,33 +94,33 @@
     "items": [
       {
         "title": "Tatuajes a color",
-        "description": "Servicio profesional de tatuajes a color. Realizado por | Scott | con productos certificados.",
+        "description": "Diseño exclusivo hecho en consulta. Trabajamos tu idea hasta que quede como lo imaginás.",
         "price": "Consultar",
-        "icon": "sparkles"
+        "icon": "pen"
       },
       {
         "title": "Tatuajes blackwork",
-        "description": "Servicio profesional de tatuajes blackwork. Realizado por | Scott | con productos certificados.",
+        "description": "Diseño exclusivo hecho en consulta. Trabajamos tu idea hasta que quede como lo imaginás.",
         "price": "Consultar",
-        "icon": "sparkles"
+        "icon": "pen"
       },
       {
         "title": "Tatuajes realistas",
-        "description": "Servicio profesional de tatuajes realistas. Realizado por | Scott | con productos certificados.",
+        "description": "Diseño exclusivo hecho en consulta. Trabajamos tu idea hasta que quede como lo imaginás.",
         "price": "Consultar",
-        "icon": "sparkles"
+        "icon": "pen"
       },
       {
         "title": "Diseños personalizados",
-        "description": "Servicio profesional de diseños personalizados. Realizado por | Scott | con productos certificados.",
+        "description": "Diseño exclusivo hecho en consulta. Trabajamos tu idea hasta que quede como lo imaginás.",
         "price": "Consultar",
-        "icon": "sparkles"
+        "icon": "pen"
       },
       {
         "title": "Piercings",
-        "description": "Servicio profesional de piercings. Realizado por | Scott | con productos certificados.",
-        "price": "Consultar",
-        "icon": "sparkles"
+        "description": "Piercings corporales con joyería de calidad y técnica estéril. Asesoramiento sobre cuidados.",
+        "price": "Gs. 100.000",
+        "icon": "circle"
       }
     ]
   },

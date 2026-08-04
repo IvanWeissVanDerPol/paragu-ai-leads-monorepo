@@ -139,21 +139,151 @@ INDUSTRY_TEMPLATES = {
              "description": "Carta completa con opciones para compartir. Servicio de mesa.", "price": "Gs. 80.000"},
         ],
     },
+
+    "nails": {
+        "hero_template": {
+            "headline": "{businessName} — Belleza para tus manos",
+            "subheadline": "Manicura, nail art y extensiones · {city}",
+            "description": "Salón de uñas profesional en {city}. Diseños únicos, productos de calidad y atención personalizada para cada clienta.",
+            "ctaPrimaryText": "Reservar Turno",
+            "ctaSecondaryText": "Ver Diseños",
+        },
+        "services_default": [
+            {"title": "Manicura Tradicional", "icon": "sparkles",
+             "description": "Manicura completa: limado, cutículas, hidratación y esmaltado tradicional. Acabado prolijo que dura.", "price": "Gs. 60.000"},
+            {"title": "Manicura Semipermanente", "icon": "sparkles",
+             "description": "Esmaltado en gel que dura hasta 3 semanas sin descascarillarse. Amplia carta de colores.", "price": "Gs. 120.000"},
+            {"title": "Uñas Acrílicas", "icon": "diamond",
+             "description": "Extensiones de acrílico esculpidas a medida. Largo y forma que se ajustan a tu mano.", "price": "Gs. 200.000"},
+            {"title": "Nail Art", "icon": "palette",
+             "description": "Diseños personalizados: francesa, degradados, decoraciones, cristales Swarovski. Cada uña es una obra de arte.", "price": "Gs. 50.000"},
+            {"title": "Pedicura Spa", "icon": "water",
+             "description": "Tratamiento completo para pies: exfoliación, masaje relajante, hidratación profunda y esmaltado.", "price": "Gs. 100.000"},
+            {"title": "Extensiones de Pestañas", "icon": "eye",
+             "description": "Pestañas pelo a pelo con técnica profesional. Mirada intensa y natural.", "price": "Gs. 180.000"},
+        ],
+        "faq_questions": [
+            ("¿Cuánto dura una cita?",
+             "Manicura tradicional: 45 min. Semipermanente: 1 hora. Acrílicas: 2 horas. Te confirmamos al reservar."),
+            ("¿Necesito turno previo?",
+             "Sí, trabajamos con turnos para darte la atención que merecés. Escribinos por WhatsApp."),
+            ("¿Qué productos usan?",
+             "Trabajamos con marcas profesionales hipoalergénicas. Tus uñas quedan protegidas y saludables."),
+            ("¿Puedo llevar mi propio diseño?",
+             "¡Por supuesto! Trabajamos con referencia o foto. Te asesoramos sobre lo que queda mejor en tus manos."),
+            ("¿Cuánto dura el esmaltado semipermanente?",
+             "Entre 2 y 3 semanas con cuidado normal. Te enseñamos cómo hacerlo durar más."),
+            ("¿Atienden hombres?",
+             "Sí, manicura y pedicura también son para hombres. Acabados discretos y prolijos."),
+            ("¿Cómo reservo?",
+             "Tocá el botón de WhatsApp, escribinos el servicio que querés y te confirmamos horario."),
+        ],
+    },
+    "tattoo": {
+        "hero_template": {
+            "headline": "{businessName} — Estudio de Tatuajes",
+            "subheadline": "Diseños personalizados · {city} · {rating}★",
+            "description": "Estudio profesional de tatuajes con artistas certificados. Higiene impecable y diseños únicos.",
+            "ctaPrimaryText": "Reservar Sesión",
+            "ctaSecondaryText": "Ver Portfolio",
+        },
+        "services_default": [
+            {"title": "Tatuaje Personalizado", "icon": "pen",
+             "description": "Diseño exclusivo hecho en consulta. Trabajamos tu idea hasta que quede como lo imaginás.", "price": "Consultar"},
+            {"title": "Cover Up", "icon": "layers",
+             "description": "Cubrimos tatuajes antiguos con diseños nuevos. Asesoramiento gratuito sobre opciones.", "price": "Consultar"},
+            {"title": "Retoque", "icon": "refresh",
+             "description": "Restauramos tatuajes existentes: líneas difuminadas, colores apagados. Recuperá tu tattoo original.", "price": "Gs. 80.000"},
+            {"title": "Piercing Profesional", "icon": "circle",
+             "description": "Piercings corporales con joyería de calidad y técnica estéril. Asesoramiento sobre cuidados.", "price": "Gs. 100.000"},
+        ],
+    },
+    "academy": {
+        "hero_template": {
+            "headline": "{businessName} — Academia en {city}",
+            "subheadline": "Profesores certificados · {rating}★",
+            "description": "Academia profesional con cursos personalizados. Metodología probada y resultados reales.",
+            "ctaPrimaryText": "Inscribirme",
+            "ctaSecondaryText": "Ver Cursos",
+        },
+        "services_default": [
+            {"title": "Cursos Regulares", "icon": "book",
+             "description": "Cursos completos con material y certificación. Grupos reducidos para atención personalizada.", "price": "Consultar"},
+            {"title": "Clases Particulares", "icon": "user",
+             "description": "Clases 1 a 1 con plan personalizado. Avanzás a tu ritmo según tus objetivos.", "price": "Gs. 150.000/mes"},
+            {"title": "Talleres Intensivos", "icon": "calendar",
+             "description": "Talleres cortos de fin de semana sobre temas específicos. Salís con conocimiento aplicable.", "price": "Gs. 200.000"},
+        ],
+    },
 }
 
 
 def detect_vertical(brief_content: str, site: dict) -> str:
-    """Detect industry from WEBSITE_BRIEF.md content."""
+    """Detect industry from WEBSITE_BRIEF.md content.
+
+    Two-pass:
+    1. Try the **Category** field from the brief (most reliable)
+    2. Fall back to keyword matching on descriptions
+    """
     text = (brief_content + " " + json.dumps(site)).lower()
-    if any(k in text for k in ["facial", "piel", "limpieza", "peeling", "microdermoabrasión", "estética facial"]):
+
+    # Pass 1: explicit Category field from the brief (more reliable than keyword guessing)
+    import re
+    # Match either "| **Category** | Gym |" (markdown table) or "**Category** Gym"
+    cat_match = re.search(r"Category\*?\*?\s*\|\s*([A-Za-zÁÉÍÓÚáéíóúñÑ /]+?)\s*\|", brief_content)
+    if not cat_match:
+        cat_match = re.search(r"\*\*Category\*\*\s+([A-Za-zÁÉÍÓÚáéíóúñÑ /]+)", brief_content)
+    if cat_match:
+        cat = cat_match.group(1).strip().lower()
+        # Direct mapping from brief categories to templates
+        cat_to_vertical = {
+            "facial aesthetics": "facial_aesthetics",
+            "facial": "facial_aesthetics",
+            "estética facial": "facial_aesthetics",
+            "spa": "spa",
+            "wellness": "spa",
+            "barber shop": "barber",
+            "barbershop": "barber",
+            "barber": "barber",
+            "peluquería": "barber",
+            "hair salon": "barber",
+            "gym": "gym",
+            "fitness": "gym",
+            "gimnasio": "gym",
+            "nails": "nails",
+            "nail salon": "nails",
+            "manicura": "nails",
+            "tattoo": "tattoo",
+            "tattoos": "tattoo",
+            "tatuajes": "tattoo",
+            "restaurant": "restaurant",
+            "restaurante": "restaurant",
+            "café": "restaurant",
+            "cafe": "restaurant",
+            "academia": "academy",
+            "academy": "academy",
+            "escuela": "academy",
+        }
+        for key, vertical in cat_to_vertical.items():
+            if key in cat:
+                return vertical
+
+    # Pass 2: keyword matching on descriptions
+    if any(k in text for k in ["facial", "piel", "limpieza facial", "peeling", "microdermoabrasión"]):
         return "facial_aesthetics"
-    if any(k in text for k in ["spa", "hidromasaje", "masaje", "sauna"]):
-        return "spa"
-    if any(k in text for k in ["barber", "barba", "peluquería", "corte"]):
-        return "barber"
-    if any(k in text for k in ["gimnasio", "gym", "entrenamiento", "musculación"]):
+    if any(k in text for k in ["manicura", "pedicura", "uña", "nail", "extensiones de pestañas"]):
+        return "nails"
+    if any(k in text for k in ["tatuaje", "tattoo", "tinta", "piercing"]):
+        return "tattoo"
+    if any(k in text for k in ["academia", "instituto", "clases", "cursos", "enseñanza"]):
+        return "academy"
+    if any(k in text for k in ["gimnasio", "gym", "entrenamiento", "musculación", "fitness"]):
         return "gym"
-    if any(k in text for k in ["restaurante", "cocina", "comida", "almuerzo", "cena"]):
+    if any(k in text for k in ["barber", "barba", "peluquería", "corte de cabello"]):
+        return "barber"
+    if any(k in text for k in ["spa", "hidromasaje", "masaje", "sauna", "wellness"]):
+        return "spa"
+    if any(k in text for k in ["restaurante", "cocina", "comida", "almuerzo", "cena", "menú"]):
         return "restaurant"
     return "spa"  # default
 
@@ -188,10 +318,12 @@ def parse_brief(brief_path: Path) -> dict:
     if m:
         info["rating"] = float(m.group(1))
         info["review_count"] = int(m.group(2))
-    # Owner
-    m = re.search(r"\*\*Owner\*\*\s*(.+)", text)
+    # Owner (strip pipes, filter literal "Unknown")
+    m = re.search(r"\*\*Owner\*\*\s*\|?\s*(.+?)\s*\|?\s*(?:\n|$)", text)
     if m:
-        info["owner"] = m.group(1).strip()
+        owner = m.group(1).strip().strip("|").strip()
+        if owner.lower() not in ("unknown", "desconocido", "n/a", "-", ""):
+            info["owner"] = owner
     # Services (lines starting with "- " under "## 2. Services / Products")
     m = re.search(r"## 2\..*?\n(.*?)(?=\n##|\Z)", text, re.DOTALL)
     if m:
