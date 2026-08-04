@@ -1,0 +1,263 @@
+{
+  "_meta": {
+    "translationQuality": "native",
+    "author": "ParaguAI / Ai-Whisperers",
+    "lastReviewed": "2026-08-03",
+    "version": "2.0",
+    "generatedBy": "content_writer.py (R35)",
+    "vertical": "spa"
+  },
+  "site": {
+    "vertical": "unknown",
+    "country": "Paraguay",
+    "domain": "leticiacarballo.com.py",
+    "defaultLocale": "es",
+    "locales": [
+      "es"
+    ],
+    "name": "Leticia Carballo",
+    "businessName": "Leticia Carballo",
+    "shortName": "Leticia Carballo",
+    "tagline": "",
+    "phone": "+595 984 904 215",
+    "whatsapp": "595984904215",
+    "email": "",
+    "address": "",
+    "city": "Asunción",
+    "hours": "",
+    "founded": "",
+    "instagram": "",
+    "facebook": "",
+    "url": "https://leticiacarballo.com.py",
+    "description": "Leticia Carballo — Local business in Asunción, Paraguay.",
+    "navigation": [
+      {
+        "labelKey": "navigation.home",
+        "path": ""
+      },
+      {
+        "labelKey": "navigation.services",
+        "path": "servicios"
+      },
+      {
+        "labelKey": "navigation.about",
+        "path": "nosotros"
+      },
+      {
+        "labelKey": "navigation.contact",
+        "path": "contacto"
+      }
+    ],
+    "_meta": {
+      "extractedFrom": "WEBSITE_BRIEF.md",
+      "generatedAt": "2026-08-03",
+      "generatedBy": "wire-app.py (R28)"
+    }
+  },
+  "navigation": {
+    "businessName": "Leticia Carballo",
+    "items": [
+      {
+        "labelKey": "navigation.home",
+        "path": ""
+      },
+      {
+        "labelKey": "navigation.services",
+        "path": "servicios"
+      },
+      {
+        "labelKey": "navigation.about",
+        "path": "nosotros"
+      },
+      {
+        "labelKey": "navigation.faq",
+        "path": "faq"
+      },
+      {
+        "labelKey": "navigation.contact",
+        "path": "contacto"
+      }
+    ]
+  },
+  "hero": {
+    "headline": "Relajación y Bienestar en Asunción",
+    "subheadline": "Tratamientos profesionales · Asunción · 4.6★",
+    "description": "Spa profesional con ambiente acogedor. Hidromasaje, masajes y tratamientos pensados para desconectar y renovar energía.",
+    "ctaPrimaryText": "Reservar Sesión",
+    "ctaSecondaryText": "Ver Paquetes",
+    "ctaPrimaryHref": "#contacto",
+    "ctaSecondaryHref": "#servicios"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Tratamientos personalizados · Asunción",
+    "items": [
+      {
+        "title": "Maquillaje social",
+        "description": "Servicio profesional de maquillaje social. Realizado por | Leticia Carballo | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Maquillaje de novia",
+        "description": "Servicio profesional de maquillaje de novia. Realizado por | Leticia Carballo | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Cursos de automaquillaje",
+        "description": "Servicio profesional de cursos de automaquillaje. Realizado por | Leticia Carballo | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Maquillaje editorial",
+        "description": "Servicio profesional de maquillaje editorial. Realizado por | Leticia Carballo | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Peinados",
+        "description": "Servicio profesional de peinados. Realizado por | Leticia Carballo | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  "packages": {
+    "title": "Paquetes y Promociones",
+    "description": "Ahorrá con nuestros paquetes combinados.",
+    "items": [
+      {
+        "name": "Pack Inicial",
+        "description": "Conocé nuestros servicios con un descuento especial. Ideal para probar Leticia Carballo por primera vez.",
+        "originalPrice": "Gs. 300.000",
+        "price": "Gs. 250.000",
+        "items": [
+          "Una sesión de cualquier servicio",
+          "Asesoría personalizada"
+        ]
+      },
+      {
+        "name": "Pack Trimestral",
+        "description": "3 sesiones con 15% de descuento. Recomendado para resultados visibles y duraderos.",
+        "originalPrice": "Gs. 600.000",
+        "price": "Gs. 510.000",
+        "items": [
+          "3 sesiones a elección",
+          "Seguimiento entre sesiones",
+          "Productos de regalo"
+        ]
+      },
+      {
+        "name": "Pack Premium",
+        "description": "La experiencia completa de Leticia Carballo. 6 sesiones + atenciones especiales.",
+        "originalPrice": "Gs. 1.200.000",
+        "price": "Gs. 950.000",
+        "items": [
+          "6 sesiones a elección",
+          "Atención prioritaria",
+          "Kit de productos",
+          "Sesión de regalo al finalizar"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Conocé Nuestro Local",
+    "items": [
+      {
+        "caption": "Recepción",
+        "alt": "Recepción del local"
+      },
+      {
+        "caption": "Sala principal",
+        "alt": "Sala donde atendemos"
+      },
+      {
+        "caption": "Servicio 1",
+        "alt": "Momento del servicio"
+      },
+      {
+        "caption": "Servicio 2",
+        "alt": "Aplicación de productos"
+      },
+      {
+        "caption": "Resultado final",
+        "alt": "Resultado del tratamiento"
+      },
+      {
+        "caption": "Equipo",
+        "alt": "Nuestro equipo profesional"
+      }
+    ]
+  },
+  "promos": {
+    "items": [
+      {
+        "title": "15% OFF primera visita",
+        "description": "Mencioná 'WEB' cuando reserves y obtené 15% de descuento en tu primera sesión."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros 206+ clientes",
+    "items": [
+      {
+        "name": "María G.",
+        "rating": 4.6,
+        "text": "Excelente atención y resultados visibles. Leticia Carballo superó mis expectativas, lo recomiendo."
+      },
+      {
+        "name": "Lucía R.",
+        "rating": 4.6,
+        "text": "Muy profesionales, el ambiente es súper agradable y los precios son justos. Ya fui varias veces."
+      },
+      {
+        "name": "Carlos P.",
+        "rating": 4.6,
+        "text": "De los mejores lugares de Asunción. Leticia Carballo es serio y comprometido con sus clientes."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Reservá tu turno",
+    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Leticia Carballo.",
+    "cta": {
+      "text": "+595 984 904 215",
+      "label": "WhatsApp"
+    },
+    "whatsappMessage": "¡Hola! Vi la página de Leticia Carballo y me gustaría reservar un turno."
+  },
+  "footer": {
+    "businessName": "Leticia Carballo",
+    "tagline": "© 2026 Leticia Carballo. Todos los derechos reservados.",
+    "credits": "Hecho con ❤️ por ParaguAI"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Respondemos las dudas más comunes de nuestros clientes",
+    "items": []
+  },
+  "pricing": {
+    "title": "Precios Transparentes",
+    "subtitle": "Sin sorpresas. Conocé nuestros precios antes de reservar.",
+    "plans": [
+      {
+        "name": "Por Sesión",
+        "price": "Gs. 50.000–200.000",
+        "description": "Reservá cualquier servicio individual"
+      },
+      {
+        "name": "Mensual",
+        "price": "Gs. 250.000",
+        "description": "Acceso completo durante el mes"
+      },
+      {
+        "name": "Trimestral",
+        "price": "Gs. 650.000",
+        "description": "Mejor precio · incluye beneficios extra"
+      }
+    ]
+  }
+}

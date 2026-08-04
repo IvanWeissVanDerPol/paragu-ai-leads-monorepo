@@ -1,0 +1,269 @@
+{
+  "_meta": {
+    "translationQuality": "native",
+    "author": "ParaguAI / Ai-Whisperers",
+    "lastReviewed": "2026-08-03",
+    "version": "2.0",
+    "generatedBy": "content_writer.py (R35)",
+    "vertical": "spa"
+  },
+  "site": {
+    "vertical": "unknown",
+    "country": "Paraguay",
+    "domain": "barbyenails.com.py",
+    "defaultLocale": "es",
+    "locales": [
+      "es"
+    ],
+    "name": "Barbye Nails",
+    "businessName": "Barbye Nails",
+    "shortName": "Barbye Nails",
+    "tagline": "",
+    "phone": "+595 961 336 346",
+    "whatsapp": "595961336346",
+    "email": "",
+    "address": "",
+    "city": "Asunción",
+    "hours": "",
+    "founded": "",
+    "instagram": "",
+    "facebook": "",
+    "url": "https://barbyenails.com.py",
+    "description": "Barbye Nails — Local business in Asunción, Paraguay.",
+    "navigation": [
+      {
+        "labelKey": "navigation.home",
+        "path": ""
+      },
+      {
+        "labelKey": "navigation.services",
+        "path": "servicios"
+      },
+      {
+        "labelKey": "navigation.about",
+        "path": "nosotros"
+      },
+      {
+        "labelKey": "navigation.contact",
+        "path": "contacto"
+      }
+    ],
+    "_meta": {
+      "extractedFrom": "WEBSITE_BRIEF.md",
+      "generatedAt": "2026-08-03",
+      "generatedBy": "wire-app.py (R28)"
+    }
+  },
+  "navigation": {
+    "businessName": "Barbye Nails",
+    "items": [
+      {
+        "labelKey": "navigation.home",
+        "path": ""
+      },
+      {
+        "labelKey": "navigation.services",
+        "path": "servicios"
+      },
+      {
+        "labelKey": "navigation.about",
+        "path": "nosotros"
+      },
+      {
+        "labelKey": "navigation.faq",
+        "path": "faq"
+      },
+      {
+        "labelKey": "navigation.contact",
+        "path": "contacto"
+      }
+    ]
+  },
+  "hero": {
+    "headline": "Relajación y Bienestar en Asunción",
+    "subheadline": "Tratamientos profesionales · Asunción · 4.8★",
+    "description": "Spa profesional con ambiente acogedor. Hidromasaje, masajes y tratamientos pensados para desconectar y renovar energía.",
+    "ctaPrimaryText": "Reservar Sesión",
+    "ctaSecondaryText": "Ver Paquetes",
+    "ctaPrimaryHref": "#contacto",
+    "ctaSecondaryHref": "#servicios"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Tratamientos personalizados · Asunción",
+    "items": [
+      {
+        "title": "Manicura tradicional",
+        "description": "Servicio profesional de manicura tradicional. Realizado por | Unknown | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Manicura semipermanente",
+        "description": "Servicio profesional de manicura semipermanente. Realizado por | Unknown | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Uñas acrílicas",
+        "description": "Servicio profesional de uñas acrílicas. Realizado por | Unknown | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Nail art",
+        "description": "Servicio profesional de nail art. Realizado por | Unknown | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Pedicura spa",
+        "description": "Servicio profesional de pedicura spa. Realizado por | Unknown | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      },
+      {
+        "title": "Extensiones de pestañas",
+        "description": "Servicio profesional de extensiones de pestañas. Realizado por | Unknown | con productos certificados.",
+        "price": "Consultar",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  "packages": {
+    "title": "Paquetes y Promociones",
+    "description": "Ahorrá con nuestros paquetes combinados.",
+    "items": [
+      {
+        "name": "Pack Inicial",
+        "description": "Conocé nuestros servicios con un descuento especial. Ideal para probar Barbye Nails por primera vez.",
+        "originalPrice": "Gs. 300.000",
+        "price": "Gs. 250.000",
+        "items": [
+          "Una sesión de cualquier servicio",
+          "Asesoría personalizada"
+        ]
+      },
+      {
+        "name": "Pack Trimestral",
+        "description": "3 sesiones con 15% de descuento. Recomendado para resultados visibles y duraderos.",
+        "originalPrice": "Gs. 600.000",
+        "price": "Gs. 510.000",
+        "items": [
+          "3 sesiones a elección",
+          "Seguimiento entre sesiones",
+          "Productos de regalo"
+        ]
+      },
+      {
+        "name": "Pack Premium",
+        "description": "La experiencia completa de Barbye Nails. 6 sesiones + atenciones especiales.",
+        "originalPrice": "Gs. 1.200.000",
+        "price": "Gs. 950.000",
+        "items": [
+          "6 sesiones a elección",
+          "Atención prioritaria",
+          "Kit de productos",
+          "Sesión de regalo al finalizar"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Conocé Nuestro Local",
+    "items": [
+      {
+        "caption": "Recepción",
+        "alt": "Recepción del local"
+      },
+      {
+        "caption": "Sala principal",
+        "alt": "Sala donde atendemos"
+      },
+      {
+        "caption": "Servicio 1",
+        "alt": "Momento del servicio"
+      },
+      {
+        "caption": "Servicio 2",
+        "alt": "Aplicación de productos"
+      },
+      {
+        "caption": "Resultado final",
+        "alt": "Resultado del tratamiento"
+      },
+      {
+        "caption": "Equipo",
+        "alt": "Nuestro equipo profesional"
+      }
+    ]
+  },
+  "promos": {
+    "items": [
+      {
+        "title": "15% OFF primera visita",
+        "description": "Mencioná 'WEB' cuando reserves y obtené 15% de descuento en tu primera sesión."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros 92+ clientes",
+    "items": [
+      {
+        "name": "María G.",
+        "rating": 4.8,
+        "text": "Excelente atención y resultados visibles. Barbye Nails superó mis expectativas, lo recomiendo."
+      },
+      {
+        "name": "Lucía R.",
+        "rating": 4.8,
+        "text": "Muy profesionales, el ambiente es súper agradable y los precios son justos. Ya fui varias veces."
+      },
+      {
+        "name": "Carlos P.",
+        "rating": 4.8,
+        "text": "De los mejores lugares de Asunción. Barbye Nails es serio y comprometido con sus clientes."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Reservá tu turno",
+    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Barbye Nails.",
+    "cta": {
+      "text": "+595 961 336 346",
+      "label": "WhatsApp"
+    },
+    "whatsappMessage": "¡Hola! Vi la página de Barbye Nails y me gustaría reservar un turno."
+  },
+  "footer": {
+    "businessName": "Barbye Nails",
+    "tagline": "© 2026 Barbye Nails. Todos los derechos reservados.",
+    "credits": "Hecho con ❤️ por ParaguAI"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Respondemos las dudas más comunes de nuestros clientes",
+    "items": []
+  },
+  "pricing": {
+    "title": "Precios Transparentes",
+    "subtitle": "Sin sorpresas. Conocé nuestros precios antes de reservar.",
+    "plans": [
+      {
+        "name": "Por Sesión",
+        "price": "Gs. 50.000–200.000",
+        "description": "Reservá cualquier servicio individual"
+      },
+      {
+        "name": "Mensual",
+        "price": "Gs. 250.000",
+        "description": "Acceso completo durante el mes"
+      },
+      {
+        "name": "Trimestral",
+        "price": "Gs. 650.000",
+        "description": "Mejor precio · incluye beneficios extra"
+      }
+    ]
+  }
+}
