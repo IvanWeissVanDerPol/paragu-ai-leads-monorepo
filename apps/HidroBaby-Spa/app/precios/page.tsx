@@ -111,7 +111,7 @@ export default function PreciosPage() {
                 ))}
               </ul>
               <a 
-                href={`https://wa.me/${content?.site?.whatsapp?.replace(/[^0-9]/g, '') || '595993444222'}`}
+                href={`tel:+${content?.site?.messaging?.replace(/[^0-9]/g, '') || '595993444222'}`}
                 style={{
                   display: 'block',
                   background: '#25D366',

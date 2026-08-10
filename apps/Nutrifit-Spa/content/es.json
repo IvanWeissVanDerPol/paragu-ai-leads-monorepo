@@ -20,7 +20,7 @@
     "shortName": "Nutrifit Spa",
     "tagline": "",
     "phone": "+595 981 953 000",
-    "whatsapp": "595981953000",
+    "messaging": "595981953000",
     "email": "",
     "address": "",
     "city": "Asunción",
@@ -225,12 +225,12 @@
   },
   "contact": {
     "title": "Reservá tu turno",
-    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Nutrifit Spa.",
+    "description": "Escribinos por Messaging o llamanos para agendar tu cita en Nutrifit Spa.",
     "cta": {
       "text": "+595 981 953 000",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de Nutrifit Spa y me gustaría reservar un turno."
+    "messagingMessage": "¡Hola! Vi la página de Nutrifit Spa y me gustaría reservar un turno."
   },
   "footer": {
     "businessName": "Nutrifit Spa",

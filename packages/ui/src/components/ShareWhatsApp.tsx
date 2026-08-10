@@ -1,9 +1,9 @@
 "use client"
 import { useBusiness } from "../hooks/useBusiness";
 
-export function ShareWhatsApp({ title, url }: { title: string; url?: string }) {
+export function ShareMessaging({ title, url }: { title: string; url?: string }) {
   const business = useBusiness();
-  const href = `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(
+  const href = `tel:+${business.messaging}?text=${encodeURIComponent(
     `Mirá esto de ${business.shortName}: ${title}${url ? ` - ${url}` : ""}`
   )}`;
   return (

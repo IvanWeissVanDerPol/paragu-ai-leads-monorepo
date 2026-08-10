@@ -20,7 +20,7 @@
     "shortName": "Leticia Carballo",
     "tagline": "",
     "phone": "+595 984 904 215",
-    "whatsapp": "595984904215",
+    "messaging": "595984904215",
     "email": "",
     "address": "",
     "city": "Asunción",
@@ -225,12 +225,12 @@
   },
   "contact": {
     "title": "Reservá tu turno",
-    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Leticia Carballo.",
+    "description": "Escribinos por Messaging o llamanos para agendar tu cita en Leticia Carballo.",
     "cta": {
       "text": "+595 984 904 215",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de Leticia Carballo y me gustaría reservar un turno."
+    "messagingMessage": "¡Hola! Vi la página de Leticia Carballo y me gustaría reservar un turno."
   },
   "footer": {
     "businessName": "Leticia Carballo",

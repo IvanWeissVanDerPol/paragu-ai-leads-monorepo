@@ -26,8 +26,8 @@ function Header({ content }: SectionProps) {
             </a>
           ))}
         </nav>
-        {site?.whatsapp && (
-          <a href={`https://wa.me/${site.whatsapp.replace(/[^0-9]/g, '')}`}
+        {site?.messaging && (
+          <a href={`tel:+${site.messaging.replace(/[^0-9]/g, '')}`}
             style={{ background: '#25D366', color: 'white', padding: '0.5rem 1rem', borderRadius: '0.5rem', textDecoration: 'none', fontSize: '0.875rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             💬 {nav?.ctaText || 'Reservar'}
           </a>
@@ -56,7 +56,7 @@ function HeroSection({ content }: SectionProps) {
           {hero.description || site.tagline || 'Baby Spa en Fernando de la Mora — Atención profesional'}
         </p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <a href={hero.ctaPrimaryHref || `https://wa.me/${(site.whatsapp || '').replace(/[^0-9]/g, '')}`}
+          <a href={hero.ctaPrimaryHref || `tel:+${(site.messaging || '').replace(/[^0-9]/g, '')}`}
             style={{ background: '#FFE66D', color: '#2E8B82', padding: '0.875rem 2rem', borderRadius: '0.5rem', textDecoration: 'none', fontWeight: 700, fontSize: '1.125rem' }}>
             {hero.ctaPrimaryText || 'Reservar Cita →'}
           </a>
@@ -134,9 +134,9 @@ function PackagesSection({ content }: SectionProps) {
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
           {items.map((pkg: any, i: number) => {
-            const whatsappNumber = (site.whatsapp || '').replace(/[^0-9]/g, '');
-            const message = encodeURIComponent(pkg.whatsappMessage || `Hola! Me interesa el ${pkg.name}. ¿Tienen disponibilidad?`);
-            const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
+            const messagingNumber = (site.messaging || '').replace(/[^0-9]/g, '');
+            const message = encodeURIComponent(pkg.messagingMessage || `Hola! Me interesa el ${pkg.name}. ¿Tienen disponibilidad?`);
+            const messagingLink = `tel:+${messagingNumber}?text=${message}`;
             
             return (
               <div key={i} style={{ 
@@ -188,7 +188,7 @@ function PackagesSection({ content }: SectionProps) {
                     )}
                   </div>
                 )}
-                <a href={whatsappLink}
+                <a href={messagingLink}
                    style={{ 
                      display: 'block', 
                      background: '#25D366', 
@@ -377,8 +377,8 @@ function FAQSection({ content }: SectionProps) {
 function CTASection({ content }: SectionProps) {
   const contact = content?.contact || {};
   const site = content?.site || {};
-  const whatsapp = (site.whatsapp || '').replace(/[^0-9]/g, '');
-  const msg = encodeURIComponent(contact.cta?.text || contact.whatsappMessage || 'Hola! Quiero reservar un turno en HidroBaby Spa');
+  const messaging = (site.messaging || '').replace(/[^0-9]/g, '');
+  const msg = encodeURIComponent(contact.cta?.text || contact.messagingMessage || 'Hola! Quiero reservar un turno en HidroBaby Spa');
   return (
     <section id="reservar" style={{ padding: '5rem 2rem', background: 'linear-gradient(135deg, #4ECDC4 0%, #2E8B82 100%)', textAlign: 'center' }}>
       <div style={{ maxWidth: '48rem', margin: '0 auto' }}>
@@ -386,12 +386,12 @@ function CTASection({ content }: SectionProps) {
           ¿Necesitás relajarte?
         </h2>
         <p style={{ color: 'rgba(255,255,255,0.95)', fontSize: '1.125rem', marginBottom: '2rem' }}>
-          {contact.subtitle || 'Reserva tu cita por WhatsApp. Te responderemos en minutos.'}
+          {contact.subtitle || 'Reserva tu cita por Messaging. Te responderemos en minutos.'}
         </p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <a href={`https://wa.me/${whatsapp}?text=${msg}`}
+          <a href={`tel:+${messaging}?text=${msg}`}
             style={{ background: '#25D366', color: 'white', padding: '1rem 2.5rem', borderRadius: '0.75rem', textDecoration: 'none', fontWeight: 700, fontSize: '1.125rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            💬 {contact.cta?.label || 'Reservar por WhatsApp'}
+            💬 {contact.cta?.label || 'Reservar por Messaging'}
           </a>
         </div>
         <div style={{ marginTop: '2rem', color: 'rgba(255,255,255,0.9)', fontSize: '0.875rem' }}>
@@ -430,7 +430,7 @@ function Footer({ content }: SectionProps) {
             <ul style={{ listStyle: 'none', padding: 0, lineHeight: 2 }}>
               {site.address && <li>📍 {site.address}</li>}
               {site.phone && <li>📞 {site.phone}</li>}
-              {site.whatsapp && <li>💬 +{site.whatsapp}</li>}
+              {site.messaging && <li>💬 +{site.messaging}</li>}
               {site.email && <li>✉ {site.email}</li>}
               {site.hours && <li>🕐 {site.hours}</li>}
             </ul>

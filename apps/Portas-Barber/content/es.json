@@ -20,7 +20,7 @@
     "shortName": "Portas Barber Shop",
     "tagline": "",
     "phone": "+595 994 215 627",
-    "whatsapp": "595994215627",
+    "messaging": "595994215627",
     "email": "",
     "address": "",
     "city": "Asunción",
@@ -225,12 +225,12 @@
   },
   "contact": {
     "title": "Reservá tu turno",
-    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Portas Barber Shop.",
+    "description": "Escribinos por Messaging o llamanos para agendar tu cita en Portas Barber Shop.",
     "cta": {
       "text": "+595 994 215 627",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de Portas Barber Shop y me gustaría reservar un turno."
+    "messagingMessage": "¡Hola! Vi la página de Portas Barber Shop y me gustaría reservar un turno."
   },
   "footer": {
     "businessName": "Portas Barber Shop",

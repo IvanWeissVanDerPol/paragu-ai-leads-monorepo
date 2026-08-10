@@ -1,14 +1,14 @@
 "use client"
 import { business } from "@/lib/config"
 
-export function ShareWhatsApp({
+export function ShareMessaging({
   title,
   url,
 }: {
   title: string
   url?: string
 }) {
-  const href = `https://wa.me/${business.whatsapp}?text=${encodeURIComponent(`Mirá esto de Magnolia: ${title}${url ? ` - ${url}` : ""}`)}`
+  const href = `tel:+${business.messaging}?text=${encodeURIComponent(`Mirá esto de Magnolia: ${title}${url ? ` - ${url}` : ""}`)}`
   return (
     <a
       href={href}

@@ -12,7 +12,7 @@
     "tagline": "Baby Spa en Fernando de la Mora — Spa Post-Vacunas #1",
     "description": "Spa post vacunas e hidromasaje para bebés de 45 días a 6 años. +1,300 reviews. Fisioterapia infantil, fiestas infantiles y coworking baby.",
     "phone": "+595 993 444 222",
-    "whatsapp": "595993444222",
+    "messaging": "595993444222",
     "email": "",
     "address": "Fernando de la Mora, Paraguay",
     "city": "Fernando de la Mora",
@@ -188,7 +188,7 @@
         "title": "🎉 Primera Sesión GRATIS",
         "description": "Prueba cualquiera de nuestros servicios sin costo",
         "ctaText": "Reservar ahora",
-        "ctaLink": "https://wa.me/595993444222?text=Hola!%20Quiero%20mi%20primera%20sesión%20gratis",
+        "ctaLink": "tel:+595993444222?text=Hola!%20Quiero%20mi%20primera%20sesión%20gratis",
         "bgColor": "#4ECDC4"
       },
       {
@@ -202,7 +202,7 @@
         "title": "🚑 Fisioterapia Prioritaria",
         "description": "Atención inmediata para bebés con hipotonía o tortícolis",
         "ctaText": "Agendar urgente",
-        "ctaLink": "https://wa.me/595993444222?text=Hola!%20Necesito%20fisioterapia%20de%20urgencia",
+        "ctaLink": "tel:+595993444222?text=Hola!%20Necesito%20fisioterapia%20de%20urgencia",
         "bgColor": "#FF6B6B"
       }
     ]
@@ -322,9 +322,9 @@
     "description": "Reserva tu cita en HidroBaby Spa.",
     "cta": {
       "text": "+595 993 444 222",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de HidroBaby Spa y me gustaría reservar una cita. ¿Podés confirmarme disponibilidad?"
+    "messagingMessage": "¡Hola! Vi la página de HidroBaby Spa y me gustaría reservar una cita. ¿Podés confirmarme disponibilidad?"
   },
   "footer": {
     "businessName": "HidroBaby Spa",
@@ -367,7 +367,7 @@
       },
       {
         "question": "¿Cómo reservo una cita?",
-        "answer": "Puedes reservar por WhatsApp al +595 993 444 222 o visitarnos directamente en Fernando de la Mora. Recomendamos reservar con 48 horas de anticipación, especialmente para los horarios de fin de semana. Para emergencias o consultas, también puedes escribirnos por WhatsApp."
+        "answer": "Puedes reservar por Messaging al +595 993 444 222 o visitarnos directamente en Fernando de la Mora. Recomendamos reservar con 48 horas de anticipación, especialmente para los horarios de fin de semana. Para emergencias o consultas, también puedes escribirnos por Messaging."
       },
       {
         "question": "¿Aceptan bebés con necesidades especiales?",
@@ -456,7 +456,7 @@
           "Evaluación completa",
           "Reporte de progreso",
           "Descuento de 35%",
-          "WhatsApp prioritario"
+          "Messaging prioritario"
         ],
         "popular": false
       },

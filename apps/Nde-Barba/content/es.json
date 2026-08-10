@@ -20,7 +20,7 @@
     "shortName": "Nde Barba Barbería",
     "tagline": "",
     "phone": "+595 991 444 268",
-    "whatsapp": "595991444268",
+    "messaging": "595991444268",
     "email": "",
     "address": "",
     "city": "Asunción",
@@ -225,12 +225,12 @@
   },
   "contact": {
     "title": "Reservá tu turno",
-    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Nde Barba Barbería.",
+    "description": "Escribinos por Messaging o llamanos para agendar tu cita en Nde Barba Barbería.",
     "cta": {
       "text": "+595 991 444 268",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de Nde Barba Barbería y me gustaría reservar un turno."
+    "messagingMessage": "¡Hola! Vi la página de Nde Barba Barbería y me gustaría reservar un turno."
   },
   "footer": {
     "businessName": "Nde Barba Barbería",

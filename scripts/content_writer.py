@@ -63,17 +63,17 @@ INDUSTRY_TEMPLATES = {
             ("¿Cuánto dura cada sesión?",
              "La mayoría de nuestros tratamientos duran entre 60 y 90 minutos. Te confirmamos el tiempo exacto cuando reserves."),
             ("¿Necesito turno previo?",
-             "Sí, trabajamos con turnos agendados para dedicarte el tiempo que necesitás. Escribinos por WhatsApp y te confirmamos disponibilidad."),
+             "Sí, trabajamos con turnos agendados para dedicarte el tiempo que necesitás. Escribinos por Messaging y te confirmamos disponibilidad."),
             ("¿Qué productos usan?",
              "Trabajamos con marcas dermatológicas certificadas. Te explicamos cada producto que usamos durante la sesión."),
             ("¿Atienden hombres también?",
              "Por supuesto. Cada vez más hombres cuidan su piel y tenemos protocolos adaptados para todo tipo de piel."),
             ("¿Tienen promociones?",
-             "Sí, tenemos paquetes combinados y descuentos por sesiones múltiples. Preguntanos por WhatsApp."),
+             "Sí, tenemos paquetes combinados y descuentos por sesiones múltiples. Preguntanos por Messaging."),
             ("¿Cuándo veo los resultados?",
              "La limpieza facial se ve desde el primer día. Para tratamientos como peeling o anti-edad, los resultados óptimos aparecen entre la 2da y 4ta sesión."),
             ("¿Cómo reservo?",
-             "Tocá el botón de WhatsApp, escribinos tu nombre y el tratamiento que querés. Te confirmamos horario en el día."),
+             "Tocá el botón de Messaging, escribinos tu nombre y el tratamiento que querés. Te confirmamos horario en el día."),
         ],
     },
     "spa": {
@@ -169,7 +169,7 @@ INDUSTRY_TEMPLATES = {
             ("¿Cuánto dura una cita?",
              "Manicura tradicional: 45 min. Semipermanente: 1 hora. Acrílicas: 2 horas. Te confirmamos al reservar."),
             ("¿Necesito turno previo?",
-             "Sí, trabajamos con turnos para darte la atención que merecés. Escribinos por WhatsApp."),
+             "Sí, trabajamos con turnos para darte la atención que merecés. Escribinos por Messaging."),
             ("¿Qué productos usan?",
              "Trabajamos con marcas profesionales hipoalergénicas. Tus uñas quedan protegidas y saludables."),
             ("¿Puedo llevar mi propio diseño?",
@@ -179,7 +179,7 @@ INDUSTRY_TEMPLATES = {
             ("¿Atienden hombres?",
              "Sí, manicura y pedicura también son para hombres. Acabados discretos y prolijos."),
             ("¿Cómo reservo?",
-             "Tocá el botón de WhatsApp, escribinos el servicio que querés y te confirmamos horario."),
+             "Tocá el botón de Messaging, escribinos el servicio que querés y te confirmamos horario."),
         ],
     },
     "tattoo": {
@@ -438,7 +438,7 @@ def generate_content(app_dir: Path, preview: bool = False) -> dict:
     ]
 
     # Assemble
-    whatsapp = site.get("whatsapp", "")
+    messaging = site.get("messaging", "")
     phone = site.get("phone", "")
     city = site.get("city", "Asunción")
     content = {
@@ -487,9 +487,9 @@ def generate_content(app_dir: Path, preview: bool = False) -> dict:
         },
         "contact": {
             "title": "Reservá tu turno",
-            "description": f"Escribinos por WhatsApp o llamanos para agendar tu cita en {business}.",
-            "cta": {"text": phone or whatsapp, "label": "WhatsApp"},
-            "whatsappMessage": f"¡Hola! Vi la página de {business} y me gustaría reservar un turno.",
+            "description": f"Escribinos por Messaging o llamanos para agendar tu cita en {business}.",
+            "cta": {"text": phone or messaging, "label": "Messaging"},
+            "messagingMessage": f"¡Hola! Vi la página de {business} y me gustaría reservar un turno.",
         },
         "footer": {
             "businessName": business,

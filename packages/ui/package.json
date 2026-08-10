@@ -1,7 +1,7 @@
 {
   "name": "@paragu-ai-leads/ui",
   "version": "1.0.0",
-  "description": "Shared UI components for ParaguAI lead sites (BottomNav, ShareWhatsApp, PromoCarousel, etc.)",
+  "description": "Shared UI components for ParaguAI lead sites (BottomNav, ShareMessaging, PromoCarousel, etc.)",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
   "exports": {

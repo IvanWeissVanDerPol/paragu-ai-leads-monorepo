@@ -15,7 +15,7 @@
 | **Category** | Microblading |
 | **Owner** | Viviana Ocampo |
 | **Phone** | +595 976 668 289 |
-| **WhatsApp** | https://wa.me/595976668289 |
+| **Messaging** | tel:+595976668289 |
 | **Rating** | 4.7★ (61 reviews) |
 | **Distance from FP** | ~1.6km |
 | **WebFit Score** | 4/5 HIGH |
@@ -49,12 +49,12 @@
 ## 4. Content Requirements
 
 ### Sections to Include
-1. **Hero** — Business name + tagline + CTA (WhatsApp booking)
+1. **Hero** — Business name + tagline + CTA (Messaging booking)
 2. **About** — Owner story / business history
 3. **Services** — List with descriptions and pricing placeholder
 4. **Gallery** — Before/after or portfolio placeholder
 5. **Testimonials** — Review highlights (from Google Maps data)
-6. **Contact** — Phone, WhatsApp, address, hours
+6. **Contact** — Phone, Messaging, address, hours
 7. **Footer** — Social links, powered by ParaguAI
 
 ### Language
@@ -72,7 +72,7 @@
 | **Styling** | Tailwind CSS |
 | **Deployment** | VPS (72.61.44.159) via PM2 + Traefik |
 | **Domain Strategy** | `SUBDOMAIN.paragu-ai.com` → eventual custom domain |
-| **WhatsApp CTA** | Floating button + booking links |
+| **Messaging CTA** | Floating button + booking links |
 | **SEO** | Local schema, Open Graph, sitemap |
 
 ---

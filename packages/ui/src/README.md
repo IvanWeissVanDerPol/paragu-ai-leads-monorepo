@@ -8,8 +8,8 @@ Replaces the per-site `components/` directories with one canonical package. Upda
 
 | Component | Purpose | Used by |
 |-----------|---------|---------|
-| `BottomNav` | Mobile bottom navigation with WhatsApp shortcut | All sites |
-| `ShareWhatsApp` | WhatsApp share button using site config | All sites |
+| `BottomNav` | Mobile bottom navigation with Messaging shortcut | All sites |
+| `ShareMessaging` | Messaging share button using site config | All sites |
 | `PromoCarousel` | Rotating promotions banner | Sites with promos |
 | `DarkModeToggle` | Light/dark mode toggle | All sites |
 | `EmptyState` | Empty list/message placeholder | All sites |
@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
 
 ```tsx
 // In a component
-import { BottomNav, ShareWhatsApp, useBusiness } from "@paragu-ai-leads/ui";
+import { BottomNav, ShareMessaging, useBusiness } from "@paragu-ai-leads/ui";
 
 export function MyPage() {
   const business = useBusiness();  // typed BusinessConfig
@@ -44,7 +44,7 @@ export function MyPage() {
     <>
       <BottomNav lang="es" />
       <main>
-        <ShareWhatsApp title="Check this out" />
+        <ShareMessaging title="Check this out" />
       </main>
     </>
   );

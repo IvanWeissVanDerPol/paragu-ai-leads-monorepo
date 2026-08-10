@@ -7,7 +7,7 @@ export interface BusinessConfig {
   shortName: string;
   tagline: string;
   phone: string;
-  whatsapp: string;
+  messaging: string;
   email?: string;
   address?: string;
   city?: string;

@@ -100,7 +100,7 @@ export default function FiestasPage() {
           </div>
 
           <a 
-            href="https://wa.me/595993444222?text=Hola!%20Quiero%20reservar%20una%20fiesta%20infantil%20en%20HidroBaby%20Spa"
+            href="tel:+595993444222?text=Hola!%20Quiero%20reservar%20una%20fiesta%20infantil%20en%20HidroBaby%20Spa"
             style={{
               display: 'inline-block',
               background: '#25D366',
@@ -210,7 +210,7 @@ export default function FiestasPage() {
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
             {[
-              { step: 1, title: 'Contactar', desc: 'Escríbenos por WhatsApp con fecha y tema' },
+              { step: 1, title: 'Contactar', desc: 'Escríbenos por Messaging con fecha y tema' },
               { step: 2, title: 'Planificar', desc: 'Elegir tema, confirmar número de niños' },
               { step: 3, title: 'Reservar', desc: 'Pagar 50% para confirmar fecha' },
               { step: 4, title: 'Preparar', desc: 'Decoramos según el tema elegido' },
@@ -320,7 +320,7 @@ export default function FiestasPage() {
             Solo 12 fechas disponibles por mes. ¡Reserva ahora!
           </p>
           <a 
-            href="https://wa.me/595993444222?text=Hola!%20Quiero%20reservar%20una%20fiesta%20infantil%20en%20HidroBaby%20Spa"
+            href="tel:+595993444222?text=Hola!%20Quiero%20reservar%20una%20fiesta%20infantil%20en%20HidroBaby%20Spa"
             style={{
               display: 'inline-block',
               background: '#25D366',
@@ -332,7 +332,7 @@ export default function FiestasPage() {
               fontSize: '1.125rem'
             }}
           >
-            💬 Reservar por WhatsApp
+            💬 Reservar por Messaging
           </a>
         </div>
       </div>

@@ -2,7 +2,7 @@
 // Shared components for all 19 ParaguAI lead sites
 
 export { BottomNav } from "./components/BottomNav";
-export { ShareWhatsApp } from "./components/ShareWhatsApp";
+export { ShareMessaging } from "./components/ShareMessaging";
 export { PromoCarousel } from "./components/PromoCarousel";
 export { DarkModeToggle } from "./components/DarkModeToggle";
 export { EmptyState } from "./components/EmptyState";

@@ -54,10 +54,10 @@ def extract_business_info(brief_path: Path) -> dict:
     if phone_match:
         info["phone"] = phone_match.group(1).strip()
 
-    # WhatsApp number (digits only)
+    # Messaging number (digits only)
     wa_match = re.search(r"wa\.me/(\d+)", text)
     if wa_match:
-        info["whatsapp"] = wa_match.group(1)
+        info["messaging"] = wa_match.group(1)
 
     # Address
     addr_match = re.search(r"\*\*Address\*\*\s*\|\s*(.+?)$", text, re.MULTILINE)
@@ -98,7 +98,7 @@ def make_site_json(app_name: str, brief_info: dict) -> dict:
         "shortName": brief_info.get("businessName", app_name),
         "tagline": "",
         "phone": brief_info.get("phone", ""),
-        "whatsapp": brief_info.get("whatsapp", ""),
+        "messaging": brief_info.get("messaging", ""),
         "email": "",
         "address": brief_info.get("address", ""),
         "city": brief_info.get("city", "Asunción"),
@@ -300,7 +300,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
     # page.tsx — minimal landing page using shared components
     page = """'use client';
-import { useBusiness, BottomNav, ShareWhatsApp, EmptyState } from "@paragu-ai-leads/ui";
+import { useBusiness, BottomNav, ShareMessaging, EmptyState } from "@paragu-ai-leads/ui";
 
 export default function Home() {
   const business = useBusiness();
@@ -317,12 +317,12 @@ export default function Home() {
             {business.tagline || `Local business in ${business.city}, Paraguay`}
           </p>
           <a
-            href={`https://wa.me/${business.whatsapp}`}
+            href={`tel:+${business.messaging}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity"
           >
-            Contactar por WhatsApp
+            Contactar por Messaging
           </a>
         </div>
       </section>
@@ -340,7 +340,7 @@ export default function Home() {
           )}
 
           <div className="mt-6">
-            <ShareWhatsApp title={business.name} />
+            <ShareMessaging title={business.name} />
           </div>
         </div>
       </section>

@@ -20,7 +20,7 @@
     "shortName": "Estudio Medieval",
     "tagline": "",
     "phone": "+595 961 482 854",
-    "whatsapp": "595961482854",
+    "messaging": "595961482854",
     "email": "",
     "address": "",
     "city": "Asunción",
@@ -225,12 +225,12 @@
   },
   "contact": {
     "title": "Reservá tu turno",
-    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Estudio Medieval.",
+    "description": "Escribinos por Messaging o llamanos para agendar tu cita en Estudio Medieval.",
     "cta": {
       "text": "+595 961 482 854",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de Estudio Medieval y me gustaría reservar un turno."
+    "messagingMessage": "¡Hola! Vi la página de Estudio Medieval y me gustaría reservar un turno."
   },
   "footer": {
     "businessName": "Estudio Medieval",
