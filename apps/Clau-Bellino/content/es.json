@@ -20,7 +20,7 @@
     "shortName": "Clau Bellino",
     "tagline": "",
     "phone": "+595 981 924 858",
-    "whatsapp": "595981924858",
+    "messaging": "595981924858",
     "email": "",
     "address": "",
     "city": "Asunción",
@@ -222,12 +222,12 @@
   },
   "contact": {
     "title": "Reservá tu turno",
-    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Clau Bellino.",
+    "description": "Escribinos por Messaging o llamanos para agendar tu cita en Clau Bellino.",
     "cta": {
       "text": "+595 981 924 858",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de Clau Bellino y me gustaría reservar un turno."
+    "messagingMessage": "¡Hola! Vi la página de Clau Bellino y me gustaría reservar un turno."
   },
   "footer": {
     "businessName": "Clau Bellino",
@@ -244,7 +244,7 @@
       },
       {
         "question": "¿Necesito turno previo?",
-        "answer": "Sí, trabajamos con turnos agendados para dedicarte el tiempo que necesitás. Escribinos por WhatsApp y te confirmamos disponibilidad."
+        "answer": "Sí, trabajamos con turnos agendados para dedicarte el tiempo que necesitás. Escribinos por Messaging y te confirmamos disponibilidad."
       },
       {
         "question": "¿Qué productos usan?",
@@ -256,7 +256,7 @@
       },
       {
         "question": "¿Tienen promociones?",
-        "answer": "Sí, tenemos paquetes combinados y descuentos por sesiones múltiples. Preguntanos por WhatsApp."
+        "answer": "Sí, tenemos paquetes combinados y descuentos por sesiones múltiples. Preguntanos por Messaging."
       },
       {
         "question": "¿Cuándo veo los resultados?",
@@ -264,7 +264,7 @@
       },
       {
         "question": "¿Cómo reservo?",
-        "answer": "Tocá el botón de WhatsApp, escribinos tu nombre y el tratamiento que querés. Te confirmamos horario en el día."
+        "answer": "Tocá el botón de Messaging, escribinos tu nombre y el tratamiento que querés. Te confirmamos horario en el día."
       }
     ]
   },

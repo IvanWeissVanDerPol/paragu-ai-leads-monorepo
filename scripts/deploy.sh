@@ -119,7 +119,7 @@ template = Path("$WRANGLER_TEMPLATE").read_text()
 # Substitute placeholders
 content = template.replace("REPLACE_WITH_APP_SLUG", "$PROJECT_SLUG")
 content = content.replace("REPLACE_WITH_BUSINESS_NAME", site.get("businessName", site.get("name", "")))
-content = content.replace("REPLACE_WITH_WHATSAPP", site.get("whatsapp", ""))
+content = content.replace("REPLACE_WITH_MESSAGING", site.get("messaging", ""))
 
 # Add custom domain routes if site.json has a domain
 domain = site.get("domain", "")

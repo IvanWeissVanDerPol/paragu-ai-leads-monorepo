@@ -23,7 +23,7 @@ export function Header({ navigation }: { navigation?: { items?: NavItem[]; busin
   const items = navigation?.items?.length ? navigation.items : DEFAULT_NAV;
   const businessName = navigation?.businessName || 'Estudio Medieval';
   const ctaText = navigation?.ctaText || 'Reservar turno';
-  const ctaHref = navigation?.ctaHref || 'https://wa.me/595961482854?text=Hola!%20Quiero%20reservar%20un%20turno';
+  const ctaHref = navigation?.ctaHref || 'tel:+595961482854?text=Hola!%20Quiero%20reservar%20un%20turno';
 
   // Only render portal after mount to avoid SSR mismatch
   if (typeof window !== 'undefined') {
@@ -89,7 +89,7 @@ export function Header({ navigation }: { navigation?: { items?: NavItem[]; busin
         )}
       </header>
 
-      {/* WhatsApp floating button */}
+      {/* Messaging floating button */}
       {mounted && createPortal(
         <a href={ctaHref} target="_blank" rel="noopener noreferrer"
           className="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all flex items-center gap-2 no-underline"

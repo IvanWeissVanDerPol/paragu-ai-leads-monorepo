@@ -93,7 +93,7 @@ export default function FAQPage() {
       questions: [
         {
           q: '¿Cómo reservo una cita?',
-          a: 'Puedes reservar por WhatsApp al +595 993 444 222 o visitarnos directamente en Fernando de la Mora. Recomendamos reservar con 48 horas de anticipación, especialmente para los horarios de fin de semana. Para emergencias o consultas, también puedes escribirnos por WhatsApp.'
+          a: 'Puedes reservar por Messaging al +595 993 444 222 o visitarnos directamente en Fernando de la Mora. Recomendamos reservar con 48 horas de anticipación, especialmente para los horarios de fin de semana. Para emergencias o consultas, también puedes escribirnos por Messaging.'
         },
         {
           q: '¿Hay estacionamiento?',
@@ -334,7 +334,7 @@ export default function FAQPage() {
               Estamos aquí para ayudar. Contáctanos directamente.
             </p>
             <a 
-              href="https://wa.me/595993444222?text=Hola!%20Tengo%20una%20pregunta%20que%20no%20aparece%20en%20el%20FAQ"
+              href="tel:+595993444222?text=Hola!%20Tengo%20una%20pregunta%20que%20no%20aparece%20en%20el%20FAQ"
               style={{
                 display: 'inline-block',
                 background: '#25D366',
@@ -346,7 +346,7 @@ export default function FAQPage() {
                 fontSize: '1.125rem'
               }}
             >
-              💬 Preguntar por WhatsApp
+              💬 Preguntar por Messaging
             </a>
           </div>
         )}

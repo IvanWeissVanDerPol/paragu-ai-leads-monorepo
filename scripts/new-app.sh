@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # new-app.sh - scaffold a new app from the HidroBaby-Spa template
-# Usage: ./scripts/new-app.sh <app-name> "<business-name>" <whatsapp-number>
+# Usage: ./scripts/new-app.sh <app-name> "<business-name>" <messaging-number>
 set -euo pipefail
 
 MONOREPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 APPS_DIR="$MONOREPO/apps"
 
-APP_NAME="${1:?usage: new-app.sh <app-name> <business-name> <whatsapp>}"
-BIZ_NAME="${2:?usage: new-app.sh <app-name> <business-name> <whatsapp>}"
-WHATSAPP="${3:?usage: new-app.sh <app-name> <business-name> <whatsapp>}"
+APP_NAME="${1:?usage: new-app.sh <app-name> <business-name> <messaging>}"
+BIZ_NAME="${2:?usage: new-app.sh <app-name> <business-name> <messaging>}"
+MESSAGING="${3:?usage: new-app.sh <app-name> <business-name> <messaging>}"
 
 TEMPLATE="$APPS_DIR/HidroBaby-Spa"
 TARGET="$APPS_DIR/$APP_NAME"
@@ -40,7 +40,7 @@ const site = JSON.parse(fs.readFileSync('$TARGET/site.json'));
 site.name = '$BIZ_NAME';
 site.shortName = '$BIZ_NAME';
 site.tagline = '';
-site.whatsapp = '$WHATSAPP';
+site.messaging = '$MESSAGING';
 fs.writeFileSync('$TARGET/site.json', JSON.stringify(site, null, 2));
 "
 

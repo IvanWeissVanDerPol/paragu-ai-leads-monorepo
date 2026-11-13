@@ -20,7 +20,7 @@
     "getInTouch": "Contactar",
     "bookNow": "Reservar ahora",
     "callNow": "Llamar ahora",
-    "whatsappUs": "Escribinos por WhatsApp",
+    "messagingUs": "Escribinos por Messaging",
     "share": "Compartir",
     "loading": "Cargando...",
     "empty": "Sin contenido",
@@ -31,7 +31,7 @@
     "cancel": "Cancelar"
   },
   "home": {
-    "heroCta": "Contactar por WhatsApp",
+    "heroCta": "Contactar por Messaging",
     "aboutTitle": "Acerca de nosotros",
     "servicesTitle": "Servicios",
     "galleryTitle": "Galería",
@@ -66,7 +66,7 @@
     "yourName": "Tu nombre",
     "yourPhone": "Tu teléfono",
     "confirmBooking": "Confirmar reserva",
-    "bookingSent": "¡Reserva enviada! Te confirmamos por WhatsApp."
+    "bookingSent": "¡Reserva enviada! Te confirmamos por Messaging."
   },
   "footer": {
     "rights": "Todos los derechos reservados",

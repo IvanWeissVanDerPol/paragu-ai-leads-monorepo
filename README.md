@@ -95,7 +95,7 @@ paragu-ai-leads-monorepo/
 │   │   ├── src/
 │   │   │   ├── components/
 │   │   │   │   ├── BottomNav.tsx
-│   │   │   │   ├── ShareWhatsApp.tsx
+│   │   │   │   ├── ShareMessaging.tsx
 │   │   │   │   ├── PromoCarousel.tsx
 │   │   │   │   ├── DarkModeToggle.tsx
 │   │   │   │   ├── EmptyState.tsx

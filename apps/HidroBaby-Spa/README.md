@@ -27,14 +27,14 @@ pnpm dev
 | Before | After |
 |--------|-------|
 | Custom `components/bottom-nav.tsx` | Import from `@paragu-ai-leads/ui` |
-| Custom `components/share-whatsapp.tsx` | Import from `@paragu-ai-leads/ui` |
+| Custom `components/share-messaging.tsx` | Import from `@paragu-ai-leads/ui` |
 | Custom `tailwind.config.js` | Extend `@paragu-ai-leads/config/tailwind` |
 | Custom `tsconfig.json` | Extend `@paragu-ai-leads/config/tsconfig/nextjs` |
 | Custom `next.config.js` | Extend `@paragu-ai-leads/config/next` |
 
 ## Site config
 
-`site.json` contains per-site configuration (name, phone, WhatsApp, etc.) — read by `useBusiness()` hook from `@paragu-ai-leads/ui`.
+`site.json` contains per-site configuration (name, phone, Messaging, etc.) — read by `useBusiness()` hook from `@paragu-ai-leads/ui`.
 
 ## Branding
 

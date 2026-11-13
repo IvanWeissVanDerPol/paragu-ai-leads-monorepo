@@ -38,7 +38,7 @@ custom_domain = true
 
 [vars]
 NEXT_PUBLIC_SITE_NAME = "XXGym"
-NEXT_PUBLIC_WHATSAPP = "595021678171"
+NEXT_PUBLIC_MESSAGING = "595021678171"
 NEXT_PUBLIC_CITY = "Asunción"
 
 # ----- Headers (security + caching) -----

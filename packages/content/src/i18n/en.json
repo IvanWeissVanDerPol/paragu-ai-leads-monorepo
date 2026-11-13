@@ -20,7 +20,7 @@
     "getInTouch": "Get in touch",
     "bookNow": "Book now",
     "callNow": "Call now",
-    "whatsappUs": "WhatsApp us",
+    "messagingUs": "Messaging us",
     "share": "Share",
     "loading": "Loading...",
     "empty": "No content",
@@ -31,7 +31,7 @@
     "cancel": "Cancel"
   },
   "home": {
-    "heroCta": "Contact us on WhatsApp",
+    "heroCta": "Contact us on Messaging",
     "aboutTitle": "About us",
     "servicesTitle": "Services",
     "galleryTitle": "Gallery",
@@ -66,7 +66,7 @@
     "yourName": "Your name",
     "yourPhone": "Your phone",
     "confirmBooking": "Confirm booking",
-    "bookingSent": "Booking sent! We'll confirm on WhatsApp."
+    "bookingSent": "Booking sent! We'll confirm on Messaging."
   },
   "footer": {
     "rights": "All rights reserved",

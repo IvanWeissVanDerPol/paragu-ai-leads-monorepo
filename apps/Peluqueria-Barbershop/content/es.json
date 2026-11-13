@@ -20,7 +20,7 @@
     "shortName": "Peluquería Barbershop",
     "tagline": "",
     "phone": "+595 982 992 766",
-    "whatsapp": "595982992766",
+    "messaging": "595982992766",
     "email": "",
     "address": "",
     "city": "Asunción",
@@ -225,12 +225,12 @@
   },
   "contact": {
     "title": "Reservá tu turno",
-    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Peluquería Barbershop.",
+    "description": "Escribinos por Messaging o llamanos para agendar tu cita en Peluquería Barbershop.",
     "cta": {
       "text": "+595 982 992 766",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de Peluquería Barbershop y me gustaría reservar un turno."
+    "messagingMessage": "¡Hola! Vi la página de Peluquería Barbershop y me gustaría reservar un turno."
   },
   "footer": {
     "businessName": "Peluquería Barbershop",

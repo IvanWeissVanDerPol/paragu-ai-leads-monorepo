@@ -33,7 +33,7 @@ pages_build_output_dir = "./out"
 # ----- Environment variables (visible in Pages dashboard) -----
 [vars]
 NEXT_PUBLIC_SITE_NAME = "REPLACE_WITH_BUSINESS_NAME"
-NEXT_PUBLIC_WHATSAPP = "REPLACE_WITH_WHATSAPP"
+NEXT_PUBLIC_MESSAGING = "REPLACE_WITH_MESSAGING"
 NEXT_PUBLIC_CITY = "Asunción"
 
 # ----- Headers (security + caching) -----

@@ -32,8 +32,8 @@ export function BottomNav({ lang = "es" as Lang }) {
     { label: labels.booking, href: `/${lang}/booking`, icon: ICONS.booking },
     { label: labels.blog, href: `/${lang}/blog`, icon: ICONS.blog },
     {
-      label: "WhatsApp",
-      href: `https://wa.me/${business.whatsapp}?text=${waText}`,
+      label: "Messaging",
+      href: `tel:+${business.messaging}?text=${waText}`,
       icon: ICONS.blog,
       external: true,
     },

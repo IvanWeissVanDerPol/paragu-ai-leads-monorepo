@@ -20,7 +20,7 @@
     "shortName": "Avani Belleza",
     "tagline": "",
     "phone": "+595 994 202 928",
-    "whatsapp": "595994202928",
+    "messaging": "595994202928",
     "email": "",
     "address": "",
     "city": "Asunción",
@@ -225,12 +225,12 @@
   },
   "contact": {
     "title": "Reservá tu turno",
-    "description": "Escribinos por WhatsApp o llamanos para agendar tu cita en Avani Belleza.",
+    "description": "Escribinos por Messaging o llamanos para agendar tu cita en Avani Belleza.",
     "cta": {
       "text": "+595 994 202 928",
-      "label": "WhatsApp"
+      "label": "Messaging"
     },
-    "whatsappMessage": "¡Hola! Vi la página de Avani Belleza y me gustaría reservar un turno."
+    "messagingMessage": "¡Hola! Vi la página de Avani Belleza y me gustaría reservar un turno."
   },
   "footer": {
     "businessName": "Avani Belleza",
@@ -247,7 +247,7 @@
       },
       {
         "question": "¿Necesito turno previo?",
-        "answer": "Sí, trabajamos con turnos para darte la atención que merecés. Escribinos por WhatsApp."
+        "answer": "Sí, trabajamos con turnos para darte la atención que merecés. Escribinos por Messaging."
       },
       {
         "question": "¿Qué productos usan?",
@@ -267,7 +267,7 @@
       },
       {
         "question": "¿Cómo reservo?",
-        "answer": "Tocá el botón de WhatsApp, escribinos el servicio que querés y te confirmamos horario."
+        "answer": "Tocá el botón de Messaging, escribinos el servicio que querés y te confirmamos horario."
       }
     ]
   },
